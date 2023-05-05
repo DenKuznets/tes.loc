@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" type="image/x-icon" href="/favicon.ico">
     <title>@yield("title")</title>
-    <link rel="stylesheet" href="{{ asset('/fonts/myFonts.css') }}">
     <link href="{{ asset('/fonts/OpenSans/stylesheet.css') }}" rel="stylesheet" type="text/css" />
     <meta name="description" content="@yield('description')" />
     <meta name="Keywords" content="@yield('keywords')" />
