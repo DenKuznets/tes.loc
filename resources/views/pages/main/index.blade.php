@@ -4,6 +4,6 @@
 @section('keywords', 'Заполни ключевые слова')
 @section('content')
     <main class="main">
-        @include('../sections.test')        
+        @include('../sections.hero')        
     </main>
 @endsection

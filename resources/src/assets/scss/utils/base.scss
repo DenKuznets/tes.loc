@@ -15,7 +15,7 @@ body {
     -ms-overflow-x: hidden;
     -o-overflow-x: hidden;
     font-family: 'Fregat';
-    background-color: $bg-white;
+    background-color: $white;
     color: $text-black;
     padding-bottom: 20px;
 }
@@ -91,11 +91,12 @@ button {
 }
 
 h1 {
+    font-family: 'Rounds';
     font-style: normal;
-    font-weight: 800;
-    font-size: 45px;
-    line-height: 61px;
-    color: $text-black;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 140%;
+    color: $text-blue;
 
     @media (max-width: 570px) {
         font-size: 35px;
@@ -166,20 +167,21 @@ img {
 }
 
 .btn {
-    border-radius: 10px;
-    padding: 17px 35px;
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 25px;
+    border-radius: 60px;
+    padding: 16px 24px 14px;
+    font-family: 'Rounds';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 140%;
     text-align: center;
     color: white;
     border: none;
-    background: linear-gradient(93.61deg, #143782 0.2%, #4278EF 100.2%);
-    box-shadow: 0px 0px 15px rgba(46, 96, 201, 0.5);
-    border-radius: 10px;
+    background: $yellow;
+    transition: all 0.3s ease;
 
     &:hover {
-        transform: scale(0.97);
+        background: $orange;
     }
 }
 
@@ -189,4 +191,9 @@ hr {
     padding: 0;
 
 
+}
+
+.mask-1 {
+    position: absolute;
+    height: 822px;
 }
