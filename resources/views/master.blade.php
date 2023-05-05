@@ -5,8 +5,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" type="image/x-icon" href="/favicon.ico">
-    <title>@yield("title")</title>
-    <link href="{{ asset('/fonts/OpenSans/stylesheet.css') }}" rel="stylesheet" type="text/css" />
+    <title>@yield('title')</title>
+    <link href="{{ asset('/fonts/Fregat/stylesheet.css') }}" rel="stylesheet" type="text/css" />
+    <link href="{{ asset('/fonts/RoundsBlack/stylesheet.css') }}" rel="stylesheet" type="text/css" />
     <meta name="description" content="@yield('description')" />
     <meta name="Keywords" content="@yield('keywords')" />
     @vite(['resources/src/assets/main.scss', 'resources/js/app.js'])
@@ -16,7 +17,7 @@
     <button class="burger">
         <img src="{{ asset('assets/img/burger.svg') }}" alt="">
     </button>
-     <button class="mobile-menu__close-btn">
+    <button class="mobile-menu__close-btn">
         <img src="{{ asset('assets/img/close-btn.svg') }}" alt="">
     </button>
     @include('components.header')
