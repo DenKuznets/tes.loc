@@ -1,2 +1,8 @@
-https://docs.google.com/document/d/1uZzGUXWN027fG6vqnuHLNVkLmfKin3YZvrPmyGc8M6c/edit правки
+Anya Sorokina | Web-designer, [5/6/2023 1:12 PM]
+h1 делай таким, как в стилях. А верхнему слову просто другой размер задай. Он единожды повторяется, не вижу смысла стиль заводить
 
+Anya Sorokina | Web-designer, [5/6/2023 1:12 PM]
+Или пока оставь одного размера весь заголовок
+
+Anya Sorokina | Web-designer, [5/6/2023 1:12 PM]
+Мб нормально будет
