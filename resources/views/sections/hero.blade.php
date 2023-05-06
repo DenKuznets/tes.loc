@@ -1,5 +1,5 @@
 <section id="hero">
-    <div class="hero containers">
+    <div class="containers hero ">
         <div class="hero__content">
             <div class="hero__text animate__animated">
                 <h1 class="">Профессиональная уборка во Владимире</h1>

@@ -40,10 +40,11 @@
   }
 
   &__phone {
+    font-family: 'Rounds';
     font-style: normal;
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 25px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 140%;
     transition: all 0.4s;
     white-space: nowrap;
     color: $text-sky;
