@@ -1,9 +1,15 @@
 import { defineConfig } from "vite";
 import laravel from "laravel-vite-plugin";
-// vite.config.js / vite.config.ts
 import { viteStaticCopy } from 'vite-plugin-static-copy'
 
 export default defineConfig({
+    css: {
+        devSourcemap: true, // показывать из какого файла взят css
+    },
+    build: {
+        outDir: "./public_html/build/",
+        cssSourceMap: true, //это тоже показывать из какого файла взят css , но заработало после добавления верхнего :)
+    },
     plugins: [
         laravel({
             input: [
@@ -11,8 +17,9 @@ export default defineConfig({
                 "resources/js/app.js",
                 "resources/src/assets/main.scss",
                 "resources/sass/app.scss",
-                "resources/js/app.js"
+                "resources/js/app.js",
             ],
+            publicDirectory: "public_html",
             refresh: true,
         }),
         viteStaticCopy({
@@ -22,6 +29,7 @@ export default defineConfig({
                     dest: "../assets",
                 },
             ],
+            publicDirectory: "public_html",
         }),
     ],
 });

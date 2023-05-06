@@ -12,7 +12,6 @@ use Illuminate\Support\Facades\Mail;
 class PageController extends Controller
 {
     public function index (){
-        // $news = News::all()->sortByDesc('id')->take(3);
         return view("pages.main.index");
     }
 

@@ -3,7 +3,7 @@
 import './fixedMenu'
 //import './scroll'
 //import './micromodal'
-// import './sendAjax'
+import './sendAjax'
 import './pop-ap-services'
 // import './antispam'
 import './animate'
