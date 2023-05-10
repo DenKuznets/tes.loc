@@ -4,6 +4,7 @@
 @section('keywords', 'Заполни ключевые слова')
 @section('content')
     <main class="main">
-        @include('../sections.hero')        
+        {{-- @include('../sections.hero')         --}}
+        @include('../sections.advantages')        
     </main>
 @endsection
