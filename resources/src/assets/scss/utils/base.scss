@@ -120,6 +120,7 @@ h2 {
     font-weight: 400;
     font-size: 40px;
     line-height: 140%;
+    position: relative;
 
     @media (max-width: $px360) {
         font-weight: 800;
@@ -129,16 +130,17 @@ h2 {
 }
 
 h3 {
+    font-family: 'Rounds';
     font-style: normal;
-    font-weight: 800;
-    font-size: 36px;
-    line-height: 49px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 140%;
 }
 
 h4 {
     font-style: normal;
     font-weight: 700;
-    font-size: 20px;
+    font-size: 24px;
     line-height: 140%;
 }
 
@@ -187,12 +189,12 @@ img {
     }
 }
 
-hr {
-    border-bottom: 3px solid #DBA11C;
-    margin: 0;
-    padding: 0;
-
-
+.star {
+    display: inline;
+    width: unset;
+    height: unset;
+    position: relative;
+    top: -25px;
 }
 
 .mask-1 {
