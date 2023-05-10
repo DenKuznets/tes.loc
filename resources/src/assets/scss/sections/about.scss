@@ -1,77 +1,48 @@
 .about {
-    padding-top: 70px;
+    padding-top: 190px;
 
     &__content {
         width: 100%;
         display: flex;
-        gap: 30px;
-        align-items: flex-end;
-        height: 100%;
+        gap: 50px;
 
         @media only screen and (max-width: $about-column) {
-            // flex-direction: column;
-            display: block;
-        }
-    }
-
-    &__text {
-        max-width: 500px;
-        flex: 1;
-
-        @media (max-width: $about-column) {
-            max-width: unset;
+            flex-direction: column-reverse;
         }
 
-        h2 {
-            margin-bottom: 40px;
-
-            @media (max-width: $px480) {
-                // text-align: center;
-            }
-        }
-
-        p {
-            margin-bottom: 55px;
+        &-image {
+            flex: 1;
+            display: flex;
+            flex-basis: 550px;
+            align-items: center;
 
             @media only screen and (max-width: $about-column) {
-                margin-bottom: 30px;
+                width: 100%;
+                max-width: unset;
+                flex-basis: unset;
             }
-        }
 
-        hr {
-            @media only screen and (max-width: $about-column) {
-                display: none;
+            img {
+                object-fit: contain;
             }
-        }
-    }
-
-    &__image {
-        flex: 1;
-        height: 400px;
-        display: flex;
-        align-items: center;
-
-        @media only screen and (max-width: $about-column) {
-            width: 100%;
-            max-width: unset;
 
         }
 
-        @media only screen and (max-width: $px360) {
-            height: 300px;
-        }
+        &-text {
+            flex: 1;
+            flex-basis: 690px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
 
-        &-container {
-            height: 100%;
-            width: 100%;
-        }
+            @media (max-width: $about-column) {
+                max-width: unset;
+                flex-basis: unset;
+            }
 
-        img {
-            border-radius: 10px;
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            max-width: unset;
+            h2 {
+                margin-bottom: 40px;
+            }
         }
     }
 }

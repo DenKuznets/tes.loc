@@ -114,11 +114,12 @@ h1 {
 }
 
 h2 {
-    font-family: $openSans;
+    color: $text-blue;
+    font-family: 'Rounds';
     font-style: normal;
-    font-weight: 800;
-    font-size: 35px;
-    line-height: 48px;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 140%;
 
     @media (max-width: $px360) {
         font-weight: 800;

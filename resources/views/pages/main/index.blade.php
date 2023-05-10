@@ -5,6 +5,7 @@
 @section('content')
     <main class="main">
         {{-- @include('../sections.hero')         --}}
-        @include('../sections.advantages')        
+        {{-- @include('../sections.advantages')         --}}
+        @include('../sections.about')        
     </main>
 @endsection
