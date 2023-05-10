@@ -6,9 +6,9 @@ import "swiper/css/navigation";
 console.log("swiper here");
 
 // bath swiper
-if (document.querySelector(".worksSwiper")) {
-    console.log('connected');
-    const bathSwiper = new Swiper(".worksSwiper", {
+if (document.querySelector(".works__swiper")) {
+    console.log('swiper connected');
+    const worksSwiper = new Swiper(".works__swiper", {
         modules: [Pagination, Navigation],
         slidesPerView: "auto",
         pagination: {
