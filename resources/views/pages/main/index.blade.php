@@ -9,6 +9,7 @@
         {{-- @include('../sections.about')         --}}
         {{-- @include('../sections.services')         --}}
         {{-- @include('../sections.works')         --}}
-        @include('../sections.reviews')        
+        {{-- @include('../sections.reviews')         --}}
+        @include('../sections.contacts')        
     </main>
 @endsection

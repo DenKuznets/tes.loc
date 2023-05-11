@@ -131,11 +131,7 @@ h2 {
     }
 }
 
-.h2-wrapper {
-    display: flex;
-    justify-content: center;
-    align-items: start;
-}
+
 
 h3 {
     font-family: 'Rounds';
@@ -191,12 +187,20 @@ img {
     transition: all 0.3s ease;
 }
 
+.h2-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    position: relative;
+}
+
 .star {
     display: inline;
     width: unset;
     height: unset;
-    position: relative;
+    // position: absolute;
     top: -5px;
+    // right: -5px;
 }
 
 .mask-1 {
