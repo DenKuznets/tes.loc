@@ -1,8 +1,75 @@
 .footer {
     $footer-column: '700px';
-    background-color: #fff;
-    padding: 70px 30px 7px;
+    $footer-semi-desktop: '845px';
+    $footer-mobile: '560px';
+    
+    // background-color: #fff;
+    padding: 90px 0 100px;
     margin: 0 auto;
 
-    
+    @media only screen and (max-width: $footer-semi-desktop) {
+        padding-bottom: 20px;
+    }
+
+    a {
+        font-family: 'Fregat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 140%;
+        color: $black;
+
+        &:hover {
+            color: $hover-color;
+        }
+    }
+
+    &__block1 {
+        margin-bottom: 16px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        @media only screen and (max-width: $footer-mobile) {
+            flex-direction: column;
+        }
+    }
+
+    &__block2 {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 20px;
+    }
+
+    &__logo {
+        cursor: pointer;
+
+        @media only screen and (max-width: $footer-mobile) {
+            margin-bottom: 16px;
+        }
+    }
+
+    &__rights {
+        @media only screen and (max-width: $footer-mobile) {
+            margin-bottom: 16px;
+        }
+    }
+
+    &__policy {
+        @media only screen and (max-width: $footer-mobile) {
+            margin-bottom: 10px;
+        }
+    }
+    &__alexmedia {
+        @media only screen and (max-width: $footer-mobile) {
+            margin-bottom: 10px;
+        }
+    }
+
+    &__disclaimer {
+        @media only screen and (max-width: $footer-semi-desktop) {
+            text-align: center;
+        }
+
+    }
 }

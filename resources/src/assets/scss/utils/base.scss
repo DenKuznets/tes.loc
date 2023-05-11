@@ -19,14 +19,14 @@ body {
     padding-bottom: 20px;
 }
 
-section {
+section,
+footer {
     position: relative;
     padding: 0 30px;
 
     @media (max-width: $px768) {
         padding: 0 20px;
     }
-
 }
 
 
@@ -45,7 +45,7 @@ main {
     position: relative;
     margin: 0 auto;
     max-width: 1290px;
-    outline: 1px solid red;
+    // outline: 1px solid red;
 }
 
 .container-fluid {
@@ -65,7 +65,8 @@ body.modal-open {
 
 // графические элементы нельзя выделить мышкой
 img,
-mask {
+.mask,
+.flower {
     user-select: none;
     -moz-user-select: none;
     -khtml-user-select: none;
@@ -83,7 +84,7 @@ a {
     transition: all 0.3s ease;
 
     &:hover {
-        color: $blue;
+        color: $hover-color;
     }
 }
 
@@ -202,7 +203,56 @@ img {
     // right: -5px;
 }
 
-.mask-1 {
+.flower {
+
     position: absolute;
+}
+
+.flower-1 {
     height: 822px;
+    width: 822px;
+}
+
+.flower-2 {
+    left: 0;
+    top: 100px;
+    height: auto;
+    width: 553px;
+}
+
+.flower-3 {
+    right: 0;
+    top: -170px;
+    height: auto;
+    width: 553px;
+}
+
+.mask {
+
+    position: absolute;
+}
+
+.mask-1 {
+    background-image: url('../../src/assets/img/mask-1.svg');
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    height: 3000px;
+    width: 100vw;
+}
+
+.mask-2 {
+    background-image: url('../../src/assets/img/mask-2.svg');
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    background-size: cover;
+    height: 1788px;
+    width: 100vw;
+}
+
+.mask-3 {
+    background-image: url('../../src/assets/img/mask-3.svg');
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    height: 1788px;
+    width: 100vw;
 }

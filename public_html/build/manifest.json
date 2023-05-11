@@ -12,7 +12,7 @@
     "css": [
       "assets/app-a215ab07.css"
     ],
-    "file": "assets/app-6cd80864.js",
+    "file": "assets/app-706894db.js",
     "isEntry": true,
     "src": "resources/js/app.js"
   },
@@ -21,12 +21,24 @@
     "isEntry": true,
     "src": "resources/sass/app.scss"
   },
+  "resources/src/assets/img/mask-1.svg": {
+    "file": "assets/mask-1-b952ec3f.svg",
+    "src": "resources/src/assets/img/mask-1.svg"
+  },
+  "resources/src/assets/img/mask-2.svg": {
+    "file": "assets/mask-2-7b28ac17.svg",
+    "src": "resources/src/assets/img/mask-2.svg"
+  },
+  "resources/src/assets/img/mask-3.svg": {
+    "file": "assets/mask-3-b6742db7.svg",
+    "src": "resources/src/assets/img/mask-3.svg"
+  },
   "resources/src/assets/img/next-btn.svg": {
     "file": "assets/next-btn-65ce22a9.svg",
     "src": "resources/src/assets/img/next-btn.svg"
   },
   "resources/src/assets/main.scss": {
-    "file": "assets/main-993ab476.css",
+    "file": "assets/main-cfef6099.css",
     "isEntry": true,
     "src": "resources/src/assets/main.scss"
   }

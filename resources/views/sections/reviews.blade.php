@@ -1,7 +1,8 @@
 <section id="reviews">
+    <img src="{{ asset('assets/img/flower-3.svg') }}" alt="" class="flower flower-3">
     <div class="containers reviews">
 
-         <div class="h2-wrapper">
+        <div class="h2-wrapper">
             <h2>Отзывы</h2>
             <img class="star" src="{{ asset('assets/img/star.svg') }}" alt="">
         </div>

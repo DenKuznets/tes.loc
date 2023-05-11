@@ -20,7 +20,8 @@
     <button class="mobile-menu__close-btn">
         <img src="{{ asset('assets/img/close-btn.svg') }}" alt="">
     </button>
-    {{-- <img src="{{ asset('assets/img/mask-1.svg') }}" alt="" class="mask mask-1"> --}}
+    <img src="{{ asset('assets/img/flower-1.svg') }}" alt="" class="flower flower-1">
+
     @include('components.header')
     @yield('content')
     @include('components.footer')
