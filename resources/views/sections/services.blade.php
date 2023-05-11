@@ -1,35 +1,35 @@
-<section id="advantages">
-    <div class="containers advantages">
+<section id="services">
+    <div class="containers services">
 
          <div class="h2-wrapper">
             <h2>Виды услуг</h2>
             <img class="star" src="{{ asset('assets/img/star.svg') }}" alt="">
         </div>
-        <div class="advantages__cards">
+        <div class="services__cards">
 
-            <div class="advantages__card">
-                <div class="advantages__card-image">
+            <div class="services__card">
+                <div class="services__card-image">
                     <img src="{{ asset('assets/img/serv-1.svg') }}" alt="">
                 </div>
                 <h3>Уборка</h3>
                 <h4>от 120 ₽/м²</h4>
             </div>
-            <div class="advantages__card">
-                <div class="advantages__card-image">
+            <div class="services__card">
+                <div class="services__card-image">
                     <img src="{{ asset('assets/img/serv-2.svg') }}" alt="">
                 </div>
                 <h3>Мытьё окон</h3>
                 <h4>от 500 ₽</h4>
             </div>
-            <div class="advantages__card">
-                <div class="advantages__card-image">
+            <div class="services__card">
+                <div class="services__card-image">
                     <img src="{{ asset('assets/img/serv-3.svg') }}" alt="">
                 </div>
                 <h3>Химчистка</h3>
                 <h4>от 100 ₽/м²</h4>
             </div>
-            <div class="advantages__card">
-                <div class="advantages__card-image">
+            <div class="services__card">
+                <div class="services__card-image">
                     <img src="{{ asset('assets/img/serv-4.svg') }}" alt="">
                 </div>
                 <h3>Доп. услуги</h3>

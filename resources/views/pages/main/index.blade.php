@@ -8,6 +8,7 @@
         {{-- @include('../sections.advantages')         --}}
         {{-- @include('../sections.about')         --}}
         {{-- @include('../sections.services')         --}}
-        @include('../sections.works')        
+        {{-- @include('../sections.works')         --}}
+        @include('../sections.reviews')        
     </main>
 @endsection

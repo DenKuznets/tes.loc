@@ -1,0 +1,50 @@
+.reviews {
+    padding-top: 70px;
+    display: flex;
+    flex-direction: column;
+
+    .h2-wrapper {
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    &__cards {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        gap: 30px;
+        position: relative;
+        margin-bottom: 30px;
+    }
+
+    &__card {
+        border-radius: 20px;
+        cursor: pointer;
+        transition: all 0.3s ease;
+
+        @media only screen and (max-width: $px1024) {
+            &:nth-child(4) {
+                display: none;
+            }
+        }
+
+        @media only screen and (max-width: $px768) {
+            &:nth-child(3) {
+                display: none;
+            }
+        }
+
+        @media only screen and (max-width: $px480) {
+            &:nth-child(2) {
+                display: none;
+            }
+        }
+    }
+
+    &__btn {
+        background-color: white;
+        border: 1px solid $text-sky;
+        color: $text-sky;
+        margin: 0 auto;
+    }
+}

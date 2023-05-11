@@ -131,7 +131,7 @@ h2 {
     }
 }
 
-.h2-wrapper{
+.h2-wrapper {
     display: flex;
     justify-content: center;
     align-items: start;
@@ -187,14 +187,8 @@ img {
     font-size: 20px;
     line-height: 140%;
     text-align: center;
-    color: white;
     border: none;
-    background: $yellow;
     transition: all 0.3s ease;
-
-    &:hover {
-        background: $orange;
-    }
 }
 
 .star {
