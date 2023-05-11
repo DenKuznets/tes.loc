@@ -5,14 +5,14 @@
     "src": "resources/css/app.css"
   },
   "resources/js/app.css": {
-    "file": "assets/app-91c77935.css",
+    "file": "assets/app-a215ab07.css",
     "src": "resources/js/app.css"
   },
   "resources/js/app.js": {
     "css": [
-      "assets/app-91c77935.css"
+      "assets/app-a215ab07.css"
     ],
-    "file": "assets/app-20b3e692.js",
+    "file": "assets/app-6cd80864.js",
     "isEntry": true,
     "src": "resources/js/app.js"
   },
@@ -21,8 +21,12 @@
     "isEntry": true,
     "src": "resources/sass/app.scss"
   },
+  "resources/src/assets/img/next-btn.svg": {
+    "file": "assets/next-btn-65ce22a9.svg",
+    "src": "resources/src/assets/img/next-btn.svg"
+  },
   "resources/src/assets/main.scss": {
-    "file": "assets/main-3c728451.css",
+    "file": "assets/main-c45a9cac.css",
     "isEntry": true,
     "src": "resources/src/assets/main.scss"
   }

@@ -114,6 +114,8 @@ h1 {
 }
 
 h2 {
+    // background-color: red;
+    display: inline-block;
     color: $text-blue;
     font-family: 'Rounds';
     font-style: normal;
@@ -122,11 +124,17 @@ h2 {
     line-height: 140%;
     position: relative;
 
-    @media (max-width: $px360) {
-        font-weight: 800;
-        font-size: 28px;
-        line-height: 38px;
+    @media (max-width: 400px) {
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 140%;
     }
+}
+
+.h2-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: start;
 }
 
 h3 {
@@ -194,7 +202,7 @@ img {
     width: unset;
     height: unset;
     position: relative;
-    top: -25px;
+    top: -5px;
 }
 
 .mask-1 {
