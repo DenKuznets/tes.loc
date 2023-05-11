@@ -12,8 +12,9 @@
         <div class="mask mask-2"></div>
         @include('../sections.works')
         @include('../sections.reviews')
-        <div class="mask mask-3"></div>
-        @include('../sections.contacts')
-
+        <div class="mask mask-3">
+            @include('../sections.contacts')
+            @include('components.footer')
+        </div>
     </main>
 @endsection

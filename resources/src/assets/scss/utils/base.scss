@@ -250,9 +250,10 @@ img {
 }
 
 .mask-3 {
+    position: relative;
     background-image: url('../../src/assets/img/mask-3.svg');
     background-repeat: no-repeat;
     background-size: 100vw;
-    height: 1788px;
+    height: 100%;
     width: 100vw;
 }
