@@ -1,7 +1,10 @@
 <section id="advantages">
     <div class="containers advantages">
 
-        <h2>Виды услуг<img class="star" src="{{ asset('assets/img/star.svg') }}" alt=""></h2>
+         <div class="h2-wrapper">
+            <h2>Виды услуг</h2>
+            <img class="star" src="{{ asset('assets/img/star.svg') }}" alt="">
+        </div>
         <div class="advantages__cards">
 
             <div class="advantages__card">
