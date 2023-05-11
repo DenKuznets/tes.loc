@@ -47,10 +47,10 @@
     line-height: 140%;
     transition: all 0.4s;
     white-space: nowrap;
-    color: $text-sky;
+    color: $sky;
 
     &:hover {
-      color: $text-blue;
+      color: $blue;
     }
 
     @media (max-width: $navhide) {

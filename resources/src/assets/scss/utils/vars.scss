@@ -1,14 +1,17 @@
 $white: #fff;
-$bg-blue: #052770;
-$text-black: #000916;
-$text-blue: #3E5496;
-$text-sky: #7CB8EB;
-$text-gray: #58595A;
+$black: #000916;
+$blue: #3E5496;
+$sky: #7CB8EB;
 $hover-color: #aaa;
 $yellow: #FCB428;
 $orange: #FC8128;
 $light-blue: #EAEFFF;
 
-$openSans: 'Open Sans';
-
-
+// breakpoints
+  $px1920: '1920px';
+  $px1024: '1024px';
+  $px850: '850px';
+  $px768: '768px';
+  $px480: '480px';
+  $px360: '360px';
+  $navhide: '1000px';
