@@ -11,8 +11,8 @@
             <div class="header__nav">
                 <ul class="nav nav__list-header">
                     <li class="nav__item-header"><a href="#services">Услуги</a></li>
-                    <li class="nav__item-header"><a href="#products">Выполненные работы</a></li>
-                    <li class="nav__item-header"><a href="#about">Отзывы</a></li>
+                    <li class="nav__item-header"><a href="#works">Выполненные работы</a></li>
+                    <li class="nav__item-header"><a href="#reviews">Отзывы</a></li>
                     <li class="nav__item-header"><a href="#contacts">Контакты</a></li>
                 </ul>
             </div>
