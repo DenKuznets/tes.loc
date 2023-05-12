@@ -34,6 +34,8 @@ document.addEventListener("DOMContentLoaded", () => {
     const bounceInDown = "animate__bounceInDown";
     const bounceInUp = "animate__bounceInUp";
     const fadeIn = "animate__fadeIn";
+    const fadeInUp = "animate__fadeInUp";
+    const fadeInDown = "animate__fadeInDown";
     const flip = "animate__flip";
     const lightSpeedInRight = "animate__lightSpeedInRight";
     const zoomInRight = "animate__zoomInRight";
@@ -42,10 +44,12 @@ document.addEventListener("DOMContentLoaded", () => {
     // #hero
     const heroText = document.querySelectorAll(".hero__text");
     if (heroText) animate(heroText, backInLeft);
+    const heroImage = document.querySelectorAll(".hero__image");
+    if (heroImage) animate(heroImage, backInRight);
 
     // #about
-    const aboutText = document.querySelectorAll(".about__text");
-    const aboutImage = document.querySelectorAll(".about__image");
+    const aboutText = document.querySelectorAll(".about__content-text");
+    const aboutImage = document.querySelectorAll(".about__content-image");
     if (aboutText) {
         animate(aboutText, backInLeft);
     }
@@ -53,34 +57,30 @@ document.addEventListener("DOMContentLoaded", () => {
         animate(aboutImage, backInRight);
     }
 
-    // #rooms
-    const roomsCard1 = document.querySelectorAll("#room1");
-    const roomsCard2 = document.querySelectorAll("#room2");
-    if (roomsCard1) animate(roomsCard1, zoomInLeft);
-    if (roomsCard2) animate(roomsCard2, zoomInRight);
-
-    // #laundry
-    const laundryText = document.querySelectorAll(".laundry__text");
-    const laundryImage = document.querySelectorAll(".laundry__image");
-    if (laundryText) {
-        animate(laundryText, backInLeft);
+    // #services
+    const servCards = document.querySelectorAll(".services__card");
+    if (servCards) {
+        animate(servCards, bounceInUp);
     }
-    if (laundryImage) {
-        animate(laundryImage, backInRight);
+    // #reviews
+    const revCards = document.querySelectorAll(".reviews__card");
+    if (revCards) {
+        animate(revCards, fadeInDown);
     }
 
     // #contacts
     const contactsText = document.querySelectorAll(".contacts__text");
-    const contactsMap = document.querySelectorAll(".contacts__map");
+    const contactsIcons = document.querySelectorAll(".contacts__social-icons");
     if (contactsText) {
         animate(contactsText, backInLeft);
     }
-    if (contactsMap) {
-        animate(contactsMap, backInRight);
+    if (contactsIcons) {
+        animate(contactsIcons, backInRight);
     }
 
     window.addEventListener("scroll", () => {
         if (heroText) animate(heroText, backInLeft);
+        if (heroImage) animate(heroImage, backInRight);
 
         if (aboutText) {
             animate(aboutText, backInLeft);
@@ -88,19 +88,20 @@ document.addEventListener("DOMContentLoaded", () => {
         if (aboutImage) {
             animate(aboutImage, backInRight);
         }
+
+        if (servCards) {
+            animate(servCards, bounceInUp);
+        }
+
+        if (revCards) {
+            animate(revCards, fadeInDown);
+        }
+
         if (contactsText) {
             animate(contactsText, backInLeft);
         }
-        if (contactsMap) {
-            animate(contactsMap, backInRight);
+        if (contactsIcons) {
+            animate(contactsIcons, backInRight);
         }
-        if (laundryText) {
-            animate(laundryText, backInLeft);
-        }
-        if (laundryImage) {
-            animate(laundryImage, backInRight);
-        }
-        if (roomsCard1) animate(roomsCard1, zoomInLeft);
-        if (roomsCard2) animate(roomsCard2, zoomInRight);
     });
 });

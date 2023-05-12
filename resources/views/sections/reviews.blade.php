@@ -7,22 +7,22 @@
             <img class="star" src="{{ asset('assets/img/star.svg') }}" alt="">
         </div>
         <div class="reviews__cards">
-            <div class="reviews__card">
+            <div class="reviews__card animate__animated">
                 <div class="reviews__card-image">
                     <img src="{{ asset('assets/img/rev-1.jpg') }}" alt="">
                 </div>
             </div>
-            <div class="reviews__card">
+            <div class="reviews__card animate__animated">
                 <div class="reviews__card-image">
                     <img src="{{ asset('assets/img/rev-2.jpg') }}" alt="">
                 </div>
             </div>
-            <div class="reviews__card">
+            <div class="reviews__card animate__animated">
                 <div class="reviews__card-image">
                     <img src="{{ asset('assets/img/rev-3.jpg') }}" alt="">
                 </div>
             </div>
-            <div class="reviews__card">
+            <div class="reviews__card animate__animated">
                 <div class="reviews__card-image">
                     <img src="{{ asset('assets/img/rev-4.jpg') }}" alt="">
                 </div>
