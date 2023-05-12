@@ -98,7 +98,7 @@ h1 {
     font-style: normal;
     font-weight: 400;
     font-size: 50px;
-    line-height: 140%;
+    line-height: 70px;
     color: $blue;
 
     @media (max-width: 570px) {
@@ -258,7 +258,7 @@ img {
     position: relative;
     background-image: url('../../src/assets/img/mask-3.svg');
     background-repeat: no-repeat;
-    background-size: 100vw;
+    background-size: 1920px;
+    background-position: center 0;
     height: 100%;
-    width: 100vw;
 }

@@ -1,6 +1,6 @@
 .about {
     $about-column: '1024px';
-    padding-top: 190px;
+    padding-top: 90px;
 
     &__content {
         width: 100%;
@@ -17,13 +17,15 @@
             flex-basis: 550px;
             align-items: center;
 
+
             @media only screen and (max-width: $about-column) {
                 width: 100%;
-                max-width: unset;
                 flex-basis: unset;
+                justify-content: center;
             }
 
             img {
+                max-width: 500px;
                 object-fit: contain;
             }
 
