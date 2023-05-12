@@ -1,12 +1,26 @@
 .hero {
+    $first-breakpoint: '1440px';
     $hero-column: '1000px';
 
+    @media only screen and (max-width: $first-breakpoint) {
+        padding-top: 40px;
+    }
+
     &__content {
-        display: flex;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
         align-items: center;
+        min-height: 650px;
+        gap: 30px;
+
+        @media only screen and (max-width: $first-breakpoint) {
+            min-height: unset;
+
+        }
 
         @media only screen and (max-width: $hero-column) {
-            flex-direction: column;
+            grid-template-columns: 1fr;
+            justify-items: center;
         }
     }
 
@@ -23,10 +37,10 @@
             margin-bottom: 35px;
 
             span {
-                font-size: 56px;
+                font-size: 45px;
             }
 
-            @media only screen and (max-width: 1200px) {
+            @media only screen and (max-width: 1250px) {
                 font-weight: 400;
                 font-size: 35px;
                 line-height: 140%;
@@ -57,11 +71,36 @@
     &__image {
         // outline: 1px solid green;
         flex: 1;
+        position: relative;
+        height: 650px;
+
+        @media only screen and (max-width: $first-breakpoint) {
+            height: unset;
+        }
+
+        @media only screen and (max-width: $hero-column) {
+            display: flex;
+            align-items: flex-start;
+            height: auto;
+        }
 
         img {
-            width: 100%;
-            height: 100%;
+            // outline: 1px solid red;
+            position: absolute;
+            width: 700px;
+            height: auto;
             object-fit: contain;
+
+            @media only screen and (max-width: $first-breakpoint) {
+                position: relative;
+                width: 100%;
+            }
+
+            @media only screen and (max-width: $hero-column) {
+                position: relative;
+                width: 100%;
+                height: auto;
+            }
         }
-    }    
+    }
 }
