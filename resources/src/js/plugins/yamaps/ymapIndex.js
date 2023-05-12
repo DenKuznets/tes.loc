@@ -3,10 +3,11 @@ console.log("ymaps тут");
 
 (() => {
     ymaps
-        .load("https://api-maps.yandex.ru/2.1/?lang=ru_RU")
-        .then((maps) => {
-            const mapContainer = document.querySelector("#ymaps");
-            if (mapContainer) {
+    .load("https://api-maps.yandex.ru/2.1/?lang=ru_RU")
+    .then((maps) => {
+        const mapContainer = document.querySelector("#ymaps");
+        if (mapContainer) {
+            console.log("ymaps подключены");
                 const map = new maps.Map(
                     mapContainer,
                     {

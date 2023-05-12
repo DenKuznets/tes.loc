@@ -6,11 +6,12 @@
                 <p>Наши специалисты готовы по предварительной договорённости выехать к вам на осмотр в короткие сроки
                     и согласовать все вопросы по уборке, посчитать стоимость и назначить дату. <br> <br>
                     Мы выполняем все виды уборок, начиная с генеральной уборки и заканчивая уборкой после ремонта.</p>
-                <button class="btn hero__btn">ОСТАВИТЬ ЗАЯВКУ</button>
+                <button id="popUp" class="btn btn-cta popup-feedback">ОСТАВИТЬ ЗАЯВКУ</button>
             </div>
             <div class="hero__image animate__animated">
                 <img class="svg" src="{{ asset('assets/img/hero-img.png') }}" alt="">
             </div>
         </div>
     </div>
+
 </section>

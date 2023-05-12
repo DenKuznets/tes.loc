@@ -12,7 +12,7 @@
     "css": [
       "assets/app-a215ab07.css"
     ],
-    "file": "assets/app-706894db.js",
+    "file": "assets/app-29ddaff5.js",
     "isEntry": true,
     "src": "resources/js/app.js"
   },
@@ -38,7 +38,7 @@
     "src": "resources/src/assets/img/next-btn.svg"
   },
   "resources/src/assets/main.scss": {
-    "file": "assets/main-cfef6099.css",
+    "file": "assets/main-438a83c8.css",
     "isEntry": true,
     "src": "resources/src/assets/main.scss"
   }

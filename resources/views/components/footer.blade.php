@@ -19,5 +19,6 @@
 
         </div>
     </div>
-    @include('layouts.popupHero')
+    @include('layouts.popupAddServ')
+    @include('layouts.popupFeedBack')
 </footer>

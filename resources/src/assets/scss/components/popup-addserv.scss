@@ -1,0 +1,84 @@
+.popup-addserv {
+    $list-column: 500px;
+
+    background: #FFFFFF;
+    border-radius: 20px;
+    padding: 50px;
+    max-width: 1070px;
+    width: unset;
+
+    &__content {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        gap: 50px;
+
+        @media only screen and (max-width: $px768) {
+            grid-template-columns: 1fr;
+        }
+
+        &-right {
+            h4 {
+                margin-bottom: 24px;
+            }
+
+            ul {
+                list-style-type: none;
+                width: 100%;
+                padding: 0;
+
+                li {
+                    display: flex;
+                    justify-content: space-between;
+
+                    @media only screen and (max-width: $list-column) {
+                        flex-direction: column;
+                    }
+
+                    &:not(:last-child) {
+                        margin-bottom: 14px;
+                    }
+                }
+            }
+        }
+
+    }
+
+    &__header {
+        margin-bottom: 50px;
+
+        img {
+            margin-bottom: 20px;
+        }
+
+        h3 {
+            color: $blue;
+        }
+    }
+
+    &__list-item-name {
+        color: $blue;
+        font-family: 'Fregat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 140%;
+
+        @media only screen and (max-width: $list-column) {
+            margin-bottom: 10px;
+        }
+    }
+
+    &__list-item-price {
+        color: $yellow;
+        font-family: 'Fregat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 140%;
+        white-space: nowrap;
+    }
+
+    button {
+        white-space: nowrap;
+    }
+}

@@ -187,6 +187,15 @@ img {
     transition: all 0.3s ease;
 }
 
+.btn-cta {
+    color: white;
+    background: $yellow;
+
+    &:hover {
+        background: $orange;
+    }
+}
+
 .h2-wrapper {
     display: flex;
     justify-content: center;
@@ -198,13 +207,10 @@ img {
     display: inline;
     width: unset;
     height: unset;
-    // position: absolute;
     top: -5px;
-    // right: -5px;
 }
 
 .flower {
-
     position: absolute;
 }
 
@@ -228,7 +234,6 @@ img {
 }
 
 .mask {
-
     position: absolute;
 }
 
