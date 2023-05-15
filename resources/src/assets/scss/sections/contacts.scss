@@ -1,6 +1,6 @@
 .contacts {
   $text-align: 960px;
-  $text-column: 630px;
+  $text-column: 680px;
 
   padding-top: 98px;
 
@@ -11,17 +11,14 @@
   &__content {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    // outline: 1px solid black;
     align-items: center;
     @media only screen and (max-width: $text-column) {
       grid-template-columns: 1fr;
       justify-items: center;
-      // grid-template-rows: 1fr;
     }
   }
 
   &__text {
-    // outline: 1px solid red;
     text-align: center;
 
     @media only screen and (max-width: $text-align) {
@@ -50,10 +47,15 @@
   }
 
   &__social-icons {
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
 
     @media only screen and (max-width: $text-align) {
       text-align: end;
+      align-items: end;
+      justify-content: end;
     }
 
     // outline: 1px solid red;
