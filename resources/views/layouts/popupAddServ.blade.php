@@ -14,7 +14,7 @@
                     <img class="svg" src="{{ asset('assets/img/add-serv-img.svg') }}" alt="">
                     <h3>Доп. услуги</h3>
                 </div>
-                <button id="popUp" class="btn btn-cta popup-feedback">оставить заявку</button>
+                <button id="popUp" class="btn btn-cta popup-feedback-btn">оставить заявку</button>
             </div>
             <div class="popup-addserv__content-right">
                 <h4>Мытьё бытовой техники</h4>
