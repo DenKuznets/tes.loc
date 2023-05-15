@@ -24,51 +24,55 @@
                         <span class="popup-addserv__list-item-price">500–1 000 ₽</span>
                     </li>
                     <li>
+                        <span class="popup-addserv__list-item-name">Духовка</span>
+                        <span class="popup-addserv__list-item-price">500–900 ₽</span>
+                    </li>
+                    <li>
+                        <span class="popup-addserv__list-item-name">Микроволновка</span>
+                        <span class="popup-addserv__list-item-price">350–400 ₽</span>
+                    </li>
+                    <li>
+                        <span class="popup-addserv__list-item-name">Посудомойка</span>
+                        <span class="popup-addserv__list-item-price">400–700 ₽</span>
+                    </li>
+                    <li>
+                        <span class="popup-addserv__list-item-name">Стиральая машинка</span>
+                        <span class="popup-addserv__list-item-price">400–1 000 ₽</span>
+                    </li>
+                    <li>
+                        <span class="popup-addserv__list-item-name">Чайники, тостеры</span>
+                        <span class="popup-addserv__list-item-price">300–500 ₽</span>
+                    </li>
+                </ul>
+                <h4>Работа по дому</h4>
+                <ul>
+                    <li>
+                        <span class="popup-addserv__list-item-name">Мытьё детского стульчика/столика</span>
+                        <span class="popup-addserv__list-item-price">300–600 ₽</span>
+                    </li>
+                    <li>
                         <span class="popup-addserv__list-item-name">Мытьё мест кормления/туалета и домиков животных</span>
-                        <span class="popup-addserv__list-item-price">500–1 000 ₽</span>
+                        <span class="popup-addserv__list-item-price">300–600 ₽</span>
                     </li>
                     <li>
-                        <span class="popup-addserv__list-item-name">Холодильник</span>
-                        <span class="popup-addserv__list-item-price">500–1 000 ₽</span>
+                        <span class="popup-addserv__list-item-name">Мытьё мебели внутри</span>
+                        <span class="popup-addserv__list-item-price">от 100 ₽</span>
                     </li>
                     <li>
-                        <span class="popup-addserv__list-item-name">Холодильник</span>
-                        <span class="popup-addserv__list-item-price">500–1 000 ₽</span>
+                        <span class="popup-addserv__list-item-name">Очищение сложных осветительных приборов</span>
+                        <span class="popup-addserv__list-item-price">от 300 ₽</span>
                     </li>
                     <li>
-                        <span class="popup-addserv__list-item-name">Холодильник</span>
+                        <span class="popup-addserv__list-item-name">Мытьё посуды и глажка белья</span>
                         <span class="popup-addserv__list-item-price">почасовая 500 ₽/час</span>
                     </li>
                     <li>
-                        <span class="popup-addserv__list-item-name">Холодильник</span>
-                        <span class="popup-addserv__list-item-price">500–1 000 ₽</span>
-                    </li>
-                </ul>
-                <h4>Мытьё бытовой техники</h4>
-                <ul>
-                    <li>
-                        <span class="popup-addserv__list-item-name">Холодильник</span>
-                        <span class="popup-addserv__list-item-price">500–1 000 ₽</span>
+                        <span class="popup-addserv__list-item-name">Cнять/развесить тюль, шторы</span>
+                        <span class="popup-addserv__list-item-price">от 200 ₽/шт</span>
                     </li>
                     <li>
-                        <span class="popup-addserv__list-item-name">Холодильник</span>
-                        <span class="popup-addserv__list-item-price">500–1 000 ₽</span>
-                    </li>
-                    <li>
-                        <span class="popup-addserv__list-item-name">Холодильник</span>
-                        <span class="popup-addserv__list-item-price">500–1 000 ₽</span>
-                    </li>
-                    <li>
-                        <span class="popup-addserv__list-item-name">Холодильник</span>
-                        <span class="popup-addserv__list-item-price">500–1 000 ₽</span>
-                    </li>
-                    <li>
-                        <span class="popup-addserv__list-item-name">Холодильник</span>
-                        <span class="popup-addserv__list-item-price">500–1 000 ₽</span>
-                    </li>
-                    <li>
-                        <span class="popup-addserv__list-item-name">Холодильник</span>
-                        <span class="popup-addserv__list-item-price">500–1 000 ₽</span>
+                        <span class="popup-addserv__list-item-name">Мытьё кухонного гарнитура или отдельных полок, шкафчиков внутри</span>
+                        <span class="popup-addserv__list-item-price">от 170 ₽/шт</span>
                     </li>
                 </ul>
             </div>
