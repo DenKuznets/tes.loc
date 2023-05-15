@@ -8,28 +8,28 @@
         </div>
         <div class="services__cards">
 
-            <div id="popUp" class="services__card popup-cleaning animate__animated">
+            <div id="popUp" class="services__card popup-cleaning-btn animate__animated">
                 <div class="services__card-image">
                     <img src="{{ asset('assets/img/serv-1.svg') }}" alt="">
                 </div>
                 <h3>Уборка</h3>
                 <h4>от 120 ₽/м²</h4>
             </div>
-            <div id="popUp" class="services__card popup-windows animate__animated">
+            <div id="popUp" class="services__card popup-windows-btn animate__animated">
                 <div class="services__card-image">
                     <img src="{{ asset('assets/img/serv-2.svg') }}" alt="">
                 </div>
                 <h3>Мытьё окон</h3>
                 <h4>от 500 ₽</h4>
             </div>
-            <div id="popUp" class="services__card popup-dryclean animate__animated">
+            <div id="popUp" class="services__card popup-dryclean-btn animate__animated">
                 <div class="services__card-image">
                     <img src="{{ asset('assets/img/serv-3.svg') }}" alt="">
                 </div>
                 <h3>Химчистка</h3>
                 <h4>от 100 ₽/м²</h4>
             </div>
-            <div id="popUp" class="services__card popup-addserv animate__animated">
+            <div id="popUp" class="services__card popup-addserv-btn animate__animated">
                 <div class="services__card-image">
                     <img src="{{ asset('assets/img/serv-4.svg') }}" alt="">
                 </div>

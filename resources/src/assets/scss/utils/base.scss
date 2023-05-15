@@ -263,3 +263,13 @@ img {
     background-position: center 0;
     height: 100%;
 }
+
+p.important-paragraph {
+    font-family: 'Fregat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 140%;
+    color: $blue;
+    margin-top: 30px;
+}

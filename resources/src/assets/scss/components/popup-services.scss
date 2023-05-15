@@ -1,4 +1,4 @@
-.popup-addserv {
+.popup-services {
     $list-column: 500px;
 
     background: #FFFFFF;
@@ -6,14 +6,33 @@
     padding: 50px;
     max-width: 1070px;
     width: unset;
-
+    height: 90vh;
+    
     &__content {
+        max-height: 100%;
+        overflow-y: auto;
+        overflow-x: hidden;
         display: grid;
         grid-template-columns: 1fr 2fr;
         gap: 50px;
+        padding-right: 15px;
 
         @media only screen and (max-width: $px768) {
             grid-template-columns: 1fr;
+        }
+
+        &-left {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            gap: 30px;
+            button {
+                white-space: nowrap;
+                @media only screen and (max-width: $px360) {
+                    font-size: 14px;
+                }
+            }
         }
 
         &-right {
@@ -78,7 +97,4 @@
         white-space: nowrap;
     }
 
-    button {
-        white-space: nowrap;
-    }
 }

@@ -30,8 +30,25 @@
                 case e.target.classList.contains("popup-feedback-btn"):
                     openModal(document.getElementById("popup-feedback"));
                     break;
-                case e.target.closest('#popUp').classList.contains("popup-addserv"):
+                case e.target
+                    .closest("#popUp")
+                    .classList.contains("popup-addserv-btn"):
                     openModal(document.getElementById("popup-addserv"));
+                    break;
+                case e.target
+                    .closest("#popUp")
+                    .classList.contains("popup-dryclean-btn"):
+                    openModal(document.getElementById("popup-dryclean"));
+                    break;
+                case e.target
+                    .closest("#popUp")
+                    .classList.contains("popup-windows-btn"):
+                    openModal(document.getElementById("popup-addserv"));
+                    break;
+                case e.target
+                    .closest("#popUp")
+                    .classList.contains("popup-cleaning-btn"):
+                    openModal(document.getElementById("popup-cleaning"));
                     break;
             }
         });

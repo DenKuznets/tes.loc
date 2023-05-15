@@ -20,5 +20,7 @@
         </div>
     </div>
     @include('layouts.popupAddServ')
+    @include('layouts.popupCleaning')
+    @include('layouts.popupDryclean')
     @include('layouts.popupFeedBack')
 </footer>
