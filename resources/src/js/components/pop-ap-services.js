@@ -27,7 +27,7 @@
             e.preventDefault();
             // console.log(e.target);
             switch (true) {
-                case e.target.classList.contains("popup-feedback"):
+                case e.target.classList.contains("popup-feedback-btn"):
                     openModal(document.getElementById("popup-feedback"));
                     break;
                 case e.target.closest('#popUp').classList.contains("popup-addserv"):

@@ -40,6 +40,8 @@ import Toast from "toastr";
                 }
             }).catch(function (error) {
                 console.log(error);
+                // перезагрузка страницы при ошибке отправки формы, как будто форма отправилась
+                window.location.reload();
             })
         }
 
