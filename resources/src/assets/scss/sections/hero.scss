@@ -47,7 +47,7 @@
                     font-size: 34px;
                 }
 
-                @media only screen and (max-width: $px768) {
+                @media only screen and (max-width: $hero-column) {
                     font-weight: inherit;
                     font-size: inherit;
                     line-height: inherit;
@@ -61,15 +61,15 @@
             }
 
             @media only screen and (max-width: $hero-column) {
-                max-width: 480px;
+                max-width: 680px;
                 margin-left: auto;
                 margin-right: auto;
-            }
-
-            @media only screen and (max-width: $px768) {
                 font-weight: 400;
                 font-size: 45px;
                 line-height: 140%;
+            }
+
+            @media only screen and (max-width: $px768) {
                 max-width: unset;
             }
 

@@ -18,10 +18,12 @@ document.addEventListener("DOMContentLoaded", () => {
                     }
                 });
             });
-
-            let scrollOffset = el.offsetParent.offsetTop + el.offsetHeight / 2;
-            if (windowCenter >= scrollOffset) {
-                observer.observe(el);
+            if (el.offsetParent) {
+                let scrollOffset =
+                    el.offsetParent.offsetTop + el.offsetHeight / 2;
+                if (windowCenter >= scrollOffset) {
+                    observer.observe(el);
+                }
             }
         });
     }
@@ -65,6 +67,7 @@ document.addEventListener("DOMContentLoaded", () => {
     // #reviews
     const revCards = document.querySelectorAll(".reviews__card");
     if (revCards) {
+        // console.log(revCards);
         animate(revCards, fadeInDown);
     }
 
