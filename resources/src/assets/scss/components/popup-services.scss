@@ -8,8 +8,9 @@
     max-width: 1070px;
     width: unset;
     height: 90vh;
+
     @media only screen and (max-width: $content-column) {
-        padding-right: 0;        
+        padding-right: 0;
     }
 
     @media only screen and (max-width: $px480) {
@@ -126,4 +127,24 @@
         white-space: nowrap;
     }
 
+}
+
+#popup-windows {
+    .popup-services__content-right {
+        h4 {
+            margin-bottom: 0;
+        }
+
+        p.important-paragraph {
+            margin-top: 0;
+            margin-bottom: 25px;
+            font-family: 'Fregat';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 140%;
+            color: $dark;
+        }
+
+    }
 }

@@ -43,7 +43,7 @@
                 case e.target
                     .closest("#popUp")
                     .classList.contains("popup-windows-btn"):
-                    openModal(document.getElementById("popup-addserv"));
+                    openModal(document.getElementById("popup-windows"));
                     break;
                 case e.target
                     .closest("#popUp")

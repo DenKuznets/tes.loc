@@ -22,5 +22,6 @@
     @include('layouts.popupAddServ')
     @include('layouts.popupCleaning')
     @include('layouts.popupDryclean')
+    @include('layouts.popupWindows')
     @include('layouts.popupFeedBack')
 </footer>
