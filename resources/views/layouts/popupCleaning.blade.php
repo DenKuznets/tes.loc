@@ -15,7 +15,7 @@
                 <div class="popup-services__content-left-top">
 
                     <div class="popup-services__header">
-                        <img class="svg" src="{{ asset('assets/img/add-serv-img.svg') }}" alt="">
+                        <img class="svg" src="{{ asset('assets/img/cleaning-img.svg') }}" alt="">
                         <h3>Уборка</h3>
                     </div>
                     <button id="popUp" class="btn btn-cta popup-feedback-btn">оставить заявку</button>

@@ -1,5 +1,6 @@
 .popup-services {
     $list-column: 500px;
+    $content-column: 850px;
 
     background: #FFFFFF;
     border-radius: 20px;
@@ -7,17 +8,27 @@
     max-width: 1070px;
     width: unset;
     height: 90vh;
-    
+    @media only screen and (max-width: $content-column) {
+        padding-right: 0;        
+    }
+
+    @media only screen and (max-width: $px480) {
+        padding-left: 20px;
+    }
+
     &__content {
-        max-height: 100%;
-        overflow-y: auto;
-        overflow-x: hidden;
         display: grid;
         grid-template-columns: 1fr 2fr;
         gap: 50px;
-        padding-right: 15px;
+        max-height: 100%;
+        height: 100%;
 
-        @media only screen and (max-width: $px768) {
+        @media only screen and (max-width: $content-column) {
+            overflow-y: auto;
+            // padding-right: 0;
+        }
+
+        @media only screen and (max-width: $content-column) {
             grid-template-columns: 1fr;
         }
 
@@ -27,8 +38,11 @@
             flex-direction: column;
             justify-content: space-between;
             gap: 30px;
+
+
             button {
                 white-space: nowrap;
+
                 @media only screen and (max-width: $px360) {
                     font-size: 14px;
                 }
@@ -36,6 +50,16 @@
         }
 
         &-right {
+            max-height: 100%;
+            overflow-y: auto;
+            overflow-x: hidden;
+            height: 100%;
+            padding-right: 15px;
+
+            @media only screen and (max-width: $content-column) {
+                overflow: visible;
+            }
+
             h4 {
                 margin-bottom: 24px;
             }
@@ -44,6 +68,10 @@
                 list-style-type: none;
                 width: 100%;
                 padding: 0;
+
+                &:not(:last-child) {
+                    margin-bottom: 30px;
+                }
 
                 li {
                     display: flex;
@@ -81,6 +109,7 @@
         font-weight: 400;
         font-size: 18px;
         line-height: 140%;
+        margin-right: 15px;
 
         @media only screen and (max-width: $list-column) {
             margin-bottom: 10px;
