@@ -239,9 +239,11 @@ img {
 .mask-1 {
     background-image: url('../../src/assets/img/mask-1.svg');
     background-repeat: no-repeat;
-    background-size: 100vw;
+    background-size: 1920px;
+    background-position: center 0;
     height: 3000px;
     width: 100vw;
+    // outline: 1px solid red;
 }
 
 .mask-2 {
