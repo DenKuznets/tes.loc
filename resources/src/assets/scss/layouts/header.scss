@@ -5,7 +5,8 @@
   width: 100%;
   z-index: 3;
   display: flex;
-  padding: 0 30px;
+  display: flex;
+  flex-direction: column;
 
 
   @media (max-width: $navhide) {
@@ -16,15 +17,99 @@
     padding: 0 20px;
   }
 
-  &__content {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    // column-gap: 40px;
+  &__top {
+    padding: 0 30px;
+    background: $disable;
+
+    @media only screen and (max-width: 1023px) {
+      display: none;
+    }
+
+    &-content {
+      display: flex;
+      gap: 60px;
+      justify-content: flex-end;
+      padding: 10px 0;
+      align-items: center;
+
+      @media only screen and (max-width: 1160px) {
+        gap: 0;
+        justify-content: space-between;
+      }
+
+      a {
+        display: flex;
+        align-items: center;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 140%;
+
+        img {
+          margin-right: 8px;
+        }
+      }
+    }
+  }
+
+  &__bottom {
+    padding: 0 30px;
     width: 100%;
-    flex: 1;
-    margin: 0 auto;
-    padding: 10px 0;
+
+    &-content {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      // column-gap: 40px;
+      width: 100%;
+      flex: 1;
+      margin: 0 auto;
+      // padding: 10px 0;
+    }
+
+    &-phone {
+      font-family: 'Rounds';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 140%;
+      transition: all 0.4s;
+      white-space: nowrap;
+      // color: $sky;
+      display: flex;
+
+      &:hover {
+        // color: $blue;
+      }
+
+      @media (max-width: $navhide) {
+        margin-right: 90px;
+        border: none;
+      }
+
+      @media (max-width: 479px) {
+        position: fixed;
+        top: -40%;
+        left: 50%;
+        transform: translate(-50%);
+        margin-right: 10px;
+      }
+
+      &-mobile {
+        position: fixed;
+        z-index: 2;
+        left: 50%;
+        top: 90%;
+        transform: translate(-50%);
+
+        @media (max-width: 420px) {
+          left: 50%;
+          top: 90%;
+          transform: translate(-50%);
+        }
+      }
+    }
   }
 
   &__logo {
@@ -37,47 +122,8 @@
       z-index: 2;
       cursor: pointer;
     }
+
+
   }
 
-  &__phone {
-    font-family: 'Rounds';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 140%;
-    transition: all 0.4s;
-    white-space: nowrap;
-    color: $sky;
-
-    &:hover {
-      color: $blue;
-    }
-
-    @media (max-width: $navhide) {
-      margin-right: 90px;
-      border: none;
-    }
-
-    @media (max-width: 479px) {
-      position: fixed;
-      top: -40%;
-      left: 50%;
-      transform: translate(-50%);
-      margin-right: 10px;
-    }
-
-    &-mobile {
-      position: fixed;
-      z-index: 2;
-      left: 50%;
-      top: 90%;
-      transform: translate(-50%);
-
-      @media (max-width: 420px) {
-        left: 50%;
-        top: 90%;
-        transform: translate(-50%);
-      }
-    }
-  }
 }

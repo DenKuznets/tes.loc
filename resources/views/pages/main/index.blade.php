@@ -1,20 +1,19 @@
 @extends('master')
-@section('title', 'Клининг Чистюля')
-@section('description', 'Заполни описание')
+@section('title', 'ООО «Тулэнергосервис»')
+@section('description',
+    'Наша компании осуществляет поставку запасных частей и вспомогательного оборудования. Специалисты нашей компании
+    обладают большим опытом в данной сфере и способны выполнить ремонтные работы любой сложности.
+    Мы ремонтируем паровые турбины и вспомогательное оборудование.')
 @section('keywords', 'Заполни ключевые слова')
 @section('content')
     <main class="main">
         @include('../sections.hero')
-        @include('../sections.advantages')
-        <div class="mask mask-1"></div>
+        {{-- @include('../sections.advantages')
         @include('../sections.about')
         @include('../sections.services')
-        <div class="mask mask-2"></div>
         @include('../sections.works')
         @include('../sections.reviews')
-        <div class="mask mask-3">
-            @include('../sections.contacts')
-            @include('components.footer')
-        </div>
+        @include('../sections.contacts') --}}
+
     </main>
 @endsection

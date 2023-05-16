@@ -1,6 +1,6 @@
 {
   "resources/css/app.css": {
-    "file": "assets/app-e69a5c17.css",
+    "file": "assets/app-718b175b.css",
     "isEntry": true,
     "src": "resources/css/app.css"
   },
@@ -21,28 +21,8 @@
     "isEntry": true,
     "src": "resources/sass/app.scss"
   },
-  "resources/src/assets/img/checkbox-icon.svg": {
-    "file": "assets/checkbox-icon-9cb9fe7e.svg",
-    "src": "resources/src/assets/img/checkbox-icon.svg"
-  },
-  "resources/src/assets/img/mask-1.svg": {
-    "file": "assets/mask-1-b952ec3f.svg",
-    "src": "resources/src/assets/img/mask-1.svg"
-  },
-  "resources/src/assets/img/mask-2.svg": {
-    "file": "assets/mask-2-7b28ac17.svg",
-    "src": "resources/src/assets/img/mask-2.svg"
-  },
-  "resources/src/assets/img/mask-3.svg": {
-    "file": "assets/mask-3-b6742db7.svg",
-    "src": "resources/src/assets/img/mask-3.svg"
-  },
-  "resources/src/assets/img/next-btn.svg": {
-    "file": "assets/next-btn-65ce22a9.svg",
-    "src": "resources/src/assets/img/next-btn.svg"
-  },
   "resources/src/assets/main.scss": {
-    "file": "assets/main-3f4431f9.css",
+    "file": "assets/main-34b08ceb.css",
     "isEntry": true,
     "src": "resources/src/assets/main.scss"
   }

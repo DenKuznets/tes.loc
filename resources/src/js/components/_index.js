@@ -5,7 +5,7 @@ import './animate'
 import './swiper'
 import './swiper_reviews'
 import "./mobileMenu";
-import "./footer";
+// import "./footer";
 
 // import './burger'
 // import './sliders'

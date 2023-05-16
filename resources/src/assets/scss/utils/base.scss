@@ -65,8 +65,8 @@ body.modal-open {
 
 // графические элементы нельзя выделить мышкой
 img,
-.mask,
-.flower {
+.mask
+ {
     user-select: none;
     -moz-user-select: none;
     -khtml-user-select: none;
@@ -100,7 +100,7 @@ h1 {
     font-weight: 400;
     font-size: 50px;
     line-height: 70px;
-    color: $blue;
+    // color: $blue;
 
     @media (max-width: 570px) {
         font-size: 35px;
@@ -117,7 +117,7 @@ h1 {
 h2 {
     // background-color: red;
     display: inline-block;
-    color: $blue;
+    // color: $blue;
     font-family: 'Rounds';
     font-style: normal;
     font-weight: 400;
@@ -152,14 +152,10 @@ p {
     font-weight: 400;
     font-size: 18px;
     line-height: 140%;
-
 }
 
-p.bold {
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 160%;
-}
+
+
 
 img {
     width: 100%;
@@ -188,88 +184,16 @@ img {
 
 .btn-cta {
     color: white;
-    background: $yellow;
+    // background: $yellow;
 
     &:hover {
-        background: $orange;
+        // background: $orange;
     }
 }
 
-.h2-wrapper {
-    display: flex;
-    justify-content: center;
-    align-items: start;
-    position: relative;
-}
-
-.star {
-    display: inline;
-    width: unset;
-    height: unset;
-    top: -5px;
-}
-
-.flower {
-    position: absolute;
-}
-
-.flower-1 {
-    height: 822px;
-    width: 822px;
-}
-
-.flower-2 {
-    left: 0;
-    top: 100px;
-    height: auto;
-    width: 553px;
-}
-
-.flower-3 {
-    right: 0;
-    top: -170px;
-    height: auto;
-    width: 553px;
-}
 
 .mask {
     position: absolute;
 }
 
-.mask-1 {
-    background-image: url('../../src/assets/img/mask-1.svg');
-    background-repeat: no-repeat;
-    background-size: 1920px;
-    background-position: center 0;
-    height: 3000px;
-    width: 100vw;
-    // outline: 1px solid red;
-}
 
-.mask-2 {
-    background-image: url('../../src/assets/img/mask-2.svg');
-    background-repeat: no-repeat;
-    background-position: 50% 0;
-    background-size: cover;
-    height: 1788px;
-    width: 100vw;
-}
-
-.mask-3 {
-    position: relative;
-    background-image: url('../../src/assets/img/mask-3.svg');
-    background-repeat: no-repeat;
-    background-size: 1920px;
-    background-position: center 0;
-    height: 100%;
-}
-
-p.important-paragraph {
-    font-family: 'Fregat';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 140%;
-    color: $blue;
-    margin-top: 30px;
-}
