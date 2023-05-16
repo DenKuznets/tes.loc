@@ -3,6 +3,7 @@ import './sendAjax'
 import './pop-ap-services'
 import './animate'
 import './swiper'
+import './swiper_reviews'
 import "./mobileMenu";
 import "./footer";
 

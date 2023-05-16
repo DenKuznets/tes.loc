@@ -9,37 +9,8 @@
         margin-bottom: 40px;
     }
 
-    &__cards {
-        display: flex;
-        width: 100%;
-        justify-content: center;
-        gap: 30px;
-        position: relative;
-        margin-bottom: 30px;
-    }
-
-    &__card {
-        border-radius: 20px;
-        cursor: pointer;
-        transition: all 0.3s ease;
-
-        @media only screen and (max-width: $px1024) {
-            &:nth-child(4) {
-                display: none;
-            }
-        }
-
-        @media only screen and (max-width: $px768) {
-            &:nth-child(3) {
-                display: none;
-            }
-        }
-
-        @media only screen and (max-width: $px480) {
-            &:nth-child(2) {
-                display: none;
-            }
-        }
+    &__card-image {
+        max-height: 400px;
     }
 
     &__btn {
@@ -47,9 +18,58 @@
         border: 1px solid $sky;
         color: $sky;
         margin: 0 auto;
-        &:hover{
+        margin-top: 30px;
+
+        &:hover {
             background-color: $sky;
             color: white;
         }
+    }
+
+    .swiper-button-prev,
+    .swiper-button-next {
+        text-rendering: auto;
+        // top: 60% !important;
+        background-size: 100% auto;
+        background-position: center;
+
+        &::after {
+            display: none !important;
+        }
+
+        @media only screen and (max-width: $px480) {
+            display: none;
+        }
+    }
+
+    .swiper-button-prev {
+        left: -44px !important;
+        background-image: url(../../src/assets/img/next-btn.svg) !important;
+        transform: scaleX(-1);
+        background-repeat: no-repeat;
+
+        @media only screen and (max-width: 1420px) {
+            left: 5px !important;
+        }
+    }
+
+    .swiper-button-next {
+        right: -44px !important;
+        background-image: url(../../src/assets/img/next-btn.svg) !important;
+        background-repeat: no-repeat;
+
+        @media only screen and (max-width: 1420px) {
+            right: 5px !important;
+        }
+    }
+
+    .swiper-pagination {
+        bottom: 190px !important;
+    }
+
+    .swiper-pagination-bullet {
+        width: 24px !important;
+        height: 24px !important;
+        background: #7CB8EB !important;
     }
 }

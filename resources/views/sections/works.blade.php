@@ -28,10 +28,10 @@
                 </div>
             </div>
             <!-- If we need pagination -->
-            <div class="swiper-pagination"></div>
+            <div class="swiper-pagination works__swiper-pagination"></div>
             <!-- If we need navigation buttons -->
-            <div class="swiper-button-prev"></div>
-            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev works__swiper-button-prev"></div>
+            <div class="swiper-button-next works__swiper-button-next"></div>
             {{-- <div class="swiper-button-prev-unique"></div>
             <div class="swiper-button-next-unique"></div> --}}
         </div>
