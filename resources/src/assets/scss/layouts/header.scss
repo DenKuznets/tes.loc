@@ -37,7 +37,7 @@
         justify-content: space-between;
       }
 
-      a {
+      a, p {
         display: flex;
         align-items: center;
         font-family: 'Montserrat';
@@ -56,28 +56,33 @@
   &__bottom {
     padding: 0 30px;
     width: 100%;
+    @media only screen and (max-width: $px768) {
+      padding: 0;
+    }
 
     &-content {
+      padding: 10px 0;
       display: flex;
       align-items: center;
       justify-content: space-between;
-      // column-gap: 40px;
       width: 100%;
       flex: 1;
       margin: 0 auto;
-      // padding: 10px 0;
     }
 
     &-phone {
-      font-family: 'Rounds';
+      font-family: 'Montserrat';
       font-style: normal;
-      font-weight: 400;
-      font-size: 20px;
+      font-weight: 600;
+      font-size: 18px;
       line-height: 140%;
       transition: all 0.4s;
       white-space: nowrap;
       // color: $sky;
-      display: flex;
+      display: none;
+      @media only screen and (max-width: $navhide) {
+        display: flex;
+      }
 
       &:hover {
         // color: $blue;

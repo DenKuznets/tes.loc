@@ -1,7 +1,7 @@
 // бургер нажатие
 const burger = document.querySelector(".burger");
 const closeBtn = document.querySelector(".mobile-menu__close-btn");
-const phone = document.querySelector(".header__phone");
+const phone = document.querySelector(".header__bottom-phone");
 const logo = document.querySelector(".header__logo");
 burger.addEventListener("click", function () {
     const nav = document.querySelector(".nav__list-header");
@@ -9,7 +9,7 @@ burger.addEventListener("click", function () {
     burger.classList.remove("burger-show");
     burger.classList.add("burger-hide");
     closeBtn.classList.toggle("mobile-menu__close-btn-active");
-    phone.classList.toggle("header__phone-mobile");
+    phone.classList.toggle("header__bottom-phone-mobile");
     logo.classList.toggle("header__logo-fixed");
     document.body.classList.toggle("modal-open");
 });
@@ -31,7 +31,7 @@ function closeMobileMenu() {
         closeBtn.classList.toggle("mobile-menu__close-btn-active");
         burger.classList.add("burger-show");
         burger.classList.remove("burger-hide");
-        phone.classList.toggle("header__phone-mobile");
+        phone.classList.toggle("header__bottom-phone-mobile");
         logo.classList.toggle("header__logo-fixed");
         document.body.classList.toggle("modal-open");
     }

@@ -1,14 +1,15 @@
 $disable: #DBE5EF;
 $white: #fff;
 $black: #05142C;
+$blue: #001EBA;
 
-$hover-color: #fff;
+$hover-color: $blue;
 
 // breakpoints
-  $px1920: '1920px';
-  $px1024: '1024px';
-  $px850: '850px';
-  $px768: '768px';
-  $px480: '480px';
-  $px360: '360px';
-  $navhide: '1000px';
+$px1920: '1920px';
+$px1024: '1024px';
+$px850: '850px';
+$px768: '768px';
+$px480: '480px';
+$px360: '360px';
+$navhide: '1000px';

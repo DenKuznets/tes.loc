@@ -2,10 +2,10 @@
     <div class="header">
         <div class="header__top">
             <div class="header__top-content containers">
-                <a href="">
+                <p href="">
                     <img class="svg" src="{{ asset('assets/img/location-icon.svg') }}" alt="">
                     Тульская обл., г. Ефремов, ул. Свердлова, д. 67
-                </a>
+                </p>
                 <a href="mailto:tulenergoservis@yandex.ru">
                     <img class="svg" src="{{ asset('assets/img/mail-icon.svg') }}" alt="">
                     tulenergoservis@yandex.ru
@@ -16,8 +16,8 @@
                 </a>
             </div>
         </div>
-        <div class="header__bottom fixedHeader containers">
-            <div class="header__bottom-content">
+        <div class="header__bottom fixedHeader ">
+            <div class="header__bottom-content containers">
                 <div class="header__logo">
                     <a {{-- href="{{ route('index') }}" --}}>
                         <img class="svg" src="{{ asset('assets/img/logo.svg') }}" alt="">
