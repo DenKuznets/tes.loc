@@ -22,7 +22,7 @@
     </button>
 
     @include('components.header')
-    {{-- @yield('content') --}}
+    @yield('content')
     {{-- @include('components.footer') --}}
     
     

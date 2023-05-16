@@ -1,16 +1,16 @@
 @font-face {
-    font-family: 'Code Next-Trial';
-    src: url('CodeNext-Trial-ExtraBold.woff2') format('woff2'),
-        url('CodeNext-Trial-ExtraBold.woff') format('woff');
+    font-family: 'Code Next';
+    src: url('CodeNext-ExtraBold.woff2') format('woff2'),
+        url('CodeNext-ExtraBold.woff') format('woff');
     font-weight: bold;
     font-style: normal;
     font-display: swap;
 }
 
 @font-face {
-    font-family: 'Code Next-Trial';
-    src: url('CodeNext-Trial-ExtraBold.woff2') format('woff2'),
-        url('CodeNext-Trial-ExtraBold.woff') format('woff');
+    font-family: 'Code Next';
+    src: url('CodeNext-ExtraBold.woff2') format('woff2'),
+        url('CodeNext-ExtraBold.woff') format('woff');
     font-weight: bold;
     font-style: normal;
     font-display: swap;

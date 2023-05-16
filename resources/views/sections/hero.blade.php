@@ -1,15 +1,28 @@
 <section id="hero">
     <div class="containers hero ">
         <div class="hero__content">
-            <div class="hero__text animate__animated">
-                <h1> Профессиональная <span>уборка во Владимире</span></h1>
-                <p>Наши специалисты готовы по предварительной договорённости выехать к вам на осмотр в короткие сроки
-                    и согласовать все вопросы по уборке, посчитать стоимость и назначить дату. <br> <br>
-                    Мы выполняем все виды уборок, начиная с генеральной уборки и заканчивая уборкой после ремонта.</p>
-                <button id="popUp" class="btn btn-cta popup-feedback-btn">ОСТАВИТЬ ЗАЯВКУ</button>
+            <div class="hero__content-left">
+                <h1>ООО «Тулэнергосервис»</h1>
+                <div class="hero__content-left-img">
+                    <img  src="{{ asset('assets/img/hero-left-img.png') }}" alt="">
+
+                </div>
+                <div class="hero__content-left-bottom">
+                    <p>Наши специалисты осуществляют ремонт турбин на высоком уровне, что гарантирует продолжительный
+                        срок службы оборудования</p>
+                    <button class="btn btn-cta">Оставить заявку</button>
+                </div>
             </div>
-            <div class="hero__image animate__animated">
-                <img class="svg" src="{{ asset('assets/img/hero-img.png') }}" alt="">
+            <div class="hero__content-right">
+                <div class="hero__content-right-img">
+                    <img  src="{{ asset('assets/img/hero-right-1.jpg') }}" alt="">
+                </div>
+                <div class="hero__content-right-img">
+                    <img src="{{ asset('assets/img/hero-right-2.jpg') }}" alt="">
+                </div>
+                <div class="hero__content-right-img">
+                    <img  src="{{ asset('assets/img/hero-right-3.jpg') }}" alt="">
+                </div>
             </div>
         </div>
     </div>

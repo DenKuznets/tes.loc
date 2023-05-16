@@ -37,7 +37,8 @@
         justify-content: space-between;
       }
 
-      a, p {
+      a,
+      p {
         display: flex;
         align-items: center;
         font-family: 'Montserrat';
@@ -56,6 +57,7 @@
   &__bottom {
     padding: 0 30px;
     width: 100%;
+
     @media only screen and (max-width: $px768) {
       padding: 0;
     }
@@ -80,12 +82,9 @@
       white-space: nowrap;
       // color: $sky;
       display: none;
+
       @media only screen and (max-width: $navhide) {
         display: flex;
-      }
-
-      &:hover {
-        // color: $blue;
       }
 
       @media (max-width: $navhide) {
@@ -93,12 +92,8 @@
         border: none;
       }
 
-      @media (max-width: 479px) {
-        position: fixed;
-        top: -40%;
-        left: 50%;
-        transform: translate(-50%);
-        margin-right: 10px;
+      @media (max-width: $px360) {
+        margin-right: 60px;
       }
 
       &-mobile {
@@ -122,13 +117,42 @@
     z-index: 2;
     cursor: pointer;
 
+    a {
+
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    &-text {
+      @media only screen and (max-width: 700px) {
+        display: none;
+      }
+
+      &-top {
+        font-family: 'Code Next';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 26px;
+        text-transform: uppercase;
+        color: $black;
+      }
+
+      &-bottom {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 17px;
+        color: $black;
+      }
+    }
+
     &-fixed {
       position: relative;
       z-index: 2;
       cursor: pointer;
     }
-
-
   }
-
 }

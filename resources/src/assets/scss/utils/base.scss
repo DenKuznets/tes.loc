@@ -95,21 +95,22 @@ button {
 }
 
 h1 {
-    font-family: 'Rounds';
+    font-family: 'Code Next';
     font-style: normal;
-    font-weight: 400;
-    font-size: 50px;
-    line-height: 70px;
-    // color: $blue;
+    font-weight: 800;
+    font-size: 70px;
+    line-height: 103px;
+    color: $black;
 
-    @media (max-width: 570px) {
-        font-size: 35px;
-        line-height: 48px;
+    @media only screen and (max-width: 950px) {
+        font-size: 50px;
+        line-height: 73px;
     }
 
-    @media only screen and (max-width: 420px) {
-        font-size: 24px;
-        line-height: 33px;
+    @media only screen and (max-width: 700px) {
+        font-size: 32px;
+        line-height: 47px;
+        // text-align: center;
     }
 
 }
@@ -148,9 +149,10 @@ h4 {
 }
 
 p {
+    font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 17px;
     line-height: 140%;
 }
 
@@ -170,24 +172,26 @@ img {
 }
 
 .btn {
-    border-radius: 60px;
-    padding: 16px 24px 14px;
-    font-family: 'Rounds';
+    font-family: 'Code Next';
     font-style: normal;
-    font-weight: 400;
+    font-weight: 800;
     font-size: 20px;
-    line-height: 140%;
+    line-height: 29px;
+    white-space: nowrap;
     text-align: center;
     border: none;
     transition: all 0.3s ease;
+    border-radius: 4px;
+    padding: 14px 30px 16px;
 }
 
 .btn-cta {
-    color: white;
-    // background: $yellow;
+    color: $blue;
+    background: $white;
 
     &:hover {
-        // background: $orange;
+        color: $white;
+        background: $blue;
     }
 }
 
