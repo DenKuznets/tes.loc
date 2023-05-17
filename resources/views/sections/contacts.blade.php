@@ -18,24 +18,28 @@
                 </p>
             </div>
             <div class="contacts__text-form">
-                <h3 class="modal-title">Напишите нам</h3>
-                <form class="modal-form">
-                    <input class="modal-form-input" type="text" name="name" placeholder="Имя" id="inputName"
-                        required>
-                    <input class="modal-form-input" type="text" name="phone" placeholder="Телефон" id="inputPhone"
-                        required>
-                    <textarea name="text" id="inputComments" placeholder="Опишите ваши пожелания"></textarea>
+                <h3 class="">Напишите нам</h3>
+                <form class="">
+                    <div class="contacts__text-form-inputs">
+                        <input class="" type="text" name="name" placeholder="Имя" id="inputName"
+                            required>
+                        <input class="" type="text" name="phone" placeholder="Телефон"
+                            id="inputPhone" required>
+                        <textarea name="text" id="inputComments" placeholder="Опишите ваши пожелания"></textarea>
+                    </div>
 
-                    <div class="modal-checkbox">
+                    <div class="">
                         <input type="checkbox" id="checkbox">
                         <label>Согласен на обработку персональный данных</label>
                     </div>
-                    <div class="modal-button">
+                    <div class="">
                         <button class="btn" id="sendMail" disabled>Оставить заявку</button>
                     </div>
                 </form>
             </div>
         </div>
-        <div class="contacts__map"></div>
+        <div class="contacts__map">
+            <div id="ymaps"></div>
+        </div>
     </div>
 </section>

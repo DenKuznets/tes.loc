@@ -1,13 +1,19 @@
-.contacts {
-  background-color: rgba(5, 20, 44, 0.95);
+#contacts {
 
-  padding-top: 155px;
+  background-color: rgba(5, 20, 44, 0.95);
+}
+
+.contacts {
+
+  // padding-top: 155px;
 
   h2,
   h3,
   p,
   a,
-  div {
+  div,
+  input,
+  textarea {
     color: $white;
   }
 
@@ -24,16 +30,60 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 30px;
+    margin-bottom: 40px;
 
     &-contacts {
       display: flex;
       flex-direction: column;
       gap: 30px;
 
-      a, p {
+      a,
+      p {
         display: flex;
         gap: 8px;
       }
     }
+
+    &-form {
+      h3 {
+        margin-bottom: 30px;
+      }
+
+      &-inputs {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+
+        input {
+          padding: 12px 20px 16px;
+          border-radius: 4px;
+          background: rgba(255, 255, 255, 0.05);
+          border: 1px solid #DBE5EF;
+        }
+
+        textarea {
+          // display: block;
+          border: 1px solid #DBE5EF;
+          padding: 12px 0 0 20px;
+          grid-column-start: 1;
+          grid-column-end: 3;
+          min-height: 93px;
+          margin-bottom: 20px;
+          border-radius: 4px;
+          background: rgba(255, 255, 255, 0.05);
+        }
+
+      }
+
+      #checkbox {
+        margin-bottom: 20px;
+      }
+    }
   }
+}
+
+#ymaps {
+  height: 500px;
+  border-radius: 4px;
+  overflow: hidden;
 }

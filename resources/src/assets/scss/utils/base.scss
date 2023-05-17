@@ -13,7 +13,7 @@ body {
     -moz-overflow-x: hidden;
     -ms-overflow-x: hidden;
     -o-overflow-x: hidden;
-    font-family: 'Fregat';
+    font-family: 'Montserrat';
     background-color: $white;
     color: $black;
     padding-bottom: 20px;
@@ -201,9 +201,19 @@ img {
     color: $white;
     cursor: pointer;
 
+    &:disabled {
+        background-color: $disable;
+        // opacity: 0.4;
+        &:hover{
+            
+            background-color: $disable;
+        }
+    }
+
     &:hover {
         background-color: $turquoise;
     }
+
 }
 
 .btn-cta {
