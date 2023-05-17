@@ -5,6 +5,7 @@ import './animate'
 import './swiper'
 import './swiper_reviews'
 import "./mobileMenu";
+import "./accordion__services";
 // import "./footer";
 
 // import './burger'

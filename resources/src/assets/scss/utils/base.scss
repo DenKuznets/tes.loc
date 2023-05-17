@@ -84,16 +84,10 @@ a {
     transition: all 0.3s ease;
 
     &:hover {
-        color: $hover-color;
+        color: $anchor-hover-color;
         text-decoration: underline;
         text-underline-offset: 6px;
     }
-}
-
-button {
-    cursor: pointer;
-    position: relative;
-    border-radius: 60px;
 }
 
 h1 {
@@ -118,29 +112,47 @@ h1 {
 }
 
 h2 {
-    // background-color: red;
-    display: inline-block;
-    // color: $blue;
-    font-family: 'Rounds';
+    font-family: 'Code Next';
     font-style: normal;
-    font-weight: 400;
+    font-weight: 800;
     font-size: 40px;
-    line-height: 140%;
-    position: relative;
+    line-height: 59px;
+    color: $black;
 
-    @media (max-width: 400px) {
-        font-weight: 400;
+    hr {
+        margin: 0;
+        padding: 0;
+        width: 100px;
+        border: none;
+        border-bottom: 1px solid $blue;
+    }
+
+    @media only screen and (max-width: $px480) {
+        font-weight: 800;
+        font-size: 36px;
+        line-height: 53px;
+    }
+
+    @media only screen and (max-width: $px360) {
+        font-weight: 800;
         font-size: 30px;
-        line-height: 140%;
+        line-height: 44px;
     }
 }
 
 h3 {
-    font-family: 'Rounds';
+    font-family: 'Code Next';
     font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 140%;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 44px;
+    color: $black;
+
+    @media only screen and (max-width: $px360) {
+        font-weight: 800;
+        font-size: 24px;
+        line-height: 35px;
+    }
 }
 
 h4 {
@@ -185,6 +197,13 @@ img {
     transition: all 0.3s ease;
     border-radius: 4px;
     padding: 14px 30px 16px;
+    background: $blue;
+    color: $white;
+    cursor: pointer;
+
+    &:hover {
+        background-color: $turquoise;
+    }
 }
 
 .btn-cta {

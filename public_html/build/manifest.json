@@ -1,6 +1,6 @@
 {
   "resources/css/app.css": {
-    "file": "assets/app-718b175b.css",
+    "file": "assets/app-e69a5c17.css",
     "isEntry": true,
     "src": "resources/css/app.css"
   },
@@ -12,7 +12,7 @@
     "css": [
       "assets/app-a215ab07.css"
     ],
-    "file": "assets/app-d52dae5d.js",
+    "file": "assets/app-6b436121.js",
     "isEntry": true,
     "src": "resources/js/app.js"
   },
@@ -26,7 +26,7 @@
     "src": "resources/src/assets/img/hero-bg.svg"
   },
   "resources/src/assets/main.scss": {
-    "file": "assets/main-0ac56351.css",
+    "file": "assets/main-dcc7e629.css",
     "isEntry": true,
     "src": "resources/src/assets/main.scss"
   }
