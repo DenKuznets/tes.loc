@@ -1,2 +1,39 @@
 .contacts {
+  background-color: rgba(5, 20, 44, 0.95);
+
+  padding-top: 155px;
+
+  h2,
+  h3,
+  p,
+  a,
+  div {
+    color: $white;
+  }
+
+  h2 {
+    margin-bottom: 52px;
+  }
+
+  a:hover {
+    color: $turquoise;
+    text-decoration: none;
+  }
+
+  &__text {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+
+    &-contacts {
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+
+      a, p {
+        display: flex;
+        gap: 8px;
+      }
+    }
+  }
 }

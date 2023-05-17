@@ -12,7 +12,7 @@
     "css": [
       "assets/app-a215ab07.css"
     ],
-    "file": "assets/app-ecce0503.js",
+    "file": "assets/app-1f5f5d0d.js",
     "isEntry": true,
     "src": "resources/js/app.js"
   },
@@ -26,7 +26,7 @@
     "src": "resources/src/assets/img/hero-bg.svg"
   },
   "resources/src/assets/main.scss": {
-    "file": "assets/main-42710d96.css",
+    "file": "assets/main-376b7d34.css",
     "isEntry": true,
     "src": "resources/src/assets/main.scss"
   }
