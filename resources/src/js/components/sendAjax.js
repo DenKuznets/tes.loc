@@ -4,6 +4,7 @@ import Toast from "toastr";
     const sendMail = document.getElementById("sendMail");
     const inputName = document.getElementById("inputName");
     const inputPhone = document.getElementById("inputPhone");
+    const inputComments = document.getElementById("inputComments");
     const checkbox = document.getElementById("checkbox");
 
     if (checkbox) {
@@ -34,11 +35,13 @@ import Toast from "toastr";
                     .post("/form-contacts", {
                         name: inputName.value,
                         phone: inputPhone.value,
+                        text: inputComments.value,
                     })
                     .then(function (response) {
                         if (response) {
                             inputName.value = "";
                             inputPhone.value = "";
+                            inputComments.value = "";
                             document.querySelector(".modalForm").style.display =
                                 "none";
                             document

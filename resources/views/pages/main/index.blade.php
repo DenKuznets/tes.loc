@@ -10,8 +10,9 @@
         {{-- @include('../sections.hero') --}}
         {{-- @include('../sections.services') --}}
         <div class="bg-shared-1">
-            @include('../sections.about')
-
+            {{-- @include('../sections.about') --}}
+            @include('../sections.contacts') 
+            
         </div>
 
 
@@ -19,7 +20,6 @@
         @include('../sections.advantages')
         @include('../sections.works')
         @include('../sections.reviews')
-        @include('../sections.contacts') 
         --}}
 
     </main>
