@@ -42,10 +42,10 @@
         &:hover {
             top: -10px;
             left: -10px;
-            box-shadow: 10px 10px $light-blue;
+            // box-shadow: 10px 10px $light-blue;
 
             h4 {
-                color: $orange;
+                // color: $orange;
             }
         }
 
@@ -63,12 +63,12 @@
         }
 
         h3 {
-            color: $blue;
+            // color: $blue;
             margin-bottom: 30px;
         }
 
         h4 {
-            color: $yellow;
+            // color: $yellow;
         }
     }
 }

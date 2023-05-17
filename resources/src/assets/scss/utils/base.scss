@@ -85,6 +85,8 @@ a {
 
     &:hover {
         color: $hover-color;
+        text-decoration: underline;
+        text-underline-offset: 6px;
     }
 }
 

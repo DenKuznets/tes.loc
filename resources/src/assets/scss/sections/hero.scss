@@ -28,7 +28,6 @@
         }
 
         &-left {
-            outline: 1px solid red;
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -84,8 +83,6 @@
         }
 
         &-right {
-
-            outline: 1px solid red;
             display: flex;
             flex-direction: column;
             gap: 30px;
