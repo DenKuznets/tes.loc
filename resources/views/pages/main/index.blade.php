@@ -8,12 +8,19 @@
 @section('content')
     <main class="main">
         {{-- @include('../sections.hero') --}}
-        @include('../sections.services')
-        {{-- @include('../sections.advantages')
-        @include('../sections.about')
+        {{-- @include('../sections.services') --}}
+        <div class="bg-shared-1">
+            @include('../sections.about')
+
+        </div>
+
+
+        {{--
+        @include('../sections.advantages')
         @include('../sections.works')
         @include('../sections.reviews')
-        @include('../sections.contacts') --}}
+        @include('../sections.contacts') 
+        --}}
 
     </main>
 @endsection
