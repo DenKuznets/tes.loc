@@ -18,14 +18,16 @@
                             </svg>
                         </div>
                     </div>
-                    <div class="accordion__panel ">
+                    <div class="accordion__panel" >
                         <div class="accordion__panel-text">
                             <p>Наша компании осуществляет поставку запасных частей и вспомогательного оборудования.
                                 Специалисты
                                 нашей компании обладают большим опытом в данной сфере и способны выполнить ремонтные
                                 работы
                                 любой сложности.
-                                Мы ремонтируем паровые турбины и вспомогательное оборудование.</p>
+                                <br> <br>
+                                Мы ремонтируем паровые турбины и вспомогательное оборудование.
+                            </p>
 
                             <button id="popUp" class="btn">Оставить заявку</button>
                         </div>
@@ -51,9 +53,9 @@
                     <div class="accordion__panel">
                         <div class="accordion__panel-text">
                             <p>Наша компания проводит работы по реконструкции и модернизации парогазотурбинного
-                                оборудования.
+                                оборудования. <br> <br>
                                 Модернизация паровых агрегатов — это комплекс работ, направленных на повышение
-                                эффективности работы оборудования.
+                                эффективности работы оборудования. <br> <br>
                                 Специалисты нашей компании имеют многолетний опыт в сфере реконструкции и модернизации
                                 энергетического оборудования, а также в области проектирования и монтажа паротурбинных
                                 установок.</p>
@@ -93,7 +95,7 @@
                     <hr class="accordion__line">
                 </div>
                 <div class="accordion__section">
-                    <div class="accordion__header accordion__header--active">
+                    <div class="accordion__header">
                         <h3>Консультация</h3>
                         <div class="accordion__header-btn">
                             <svg width="40" height="40" viewBox="0 0 40 40" fill="none"
@@ -105,7 +107,7 @@
                             </svg>
                         </div>
                     </div>
-                    <div class="accordion__panel accordion__panel--active" style="max-height: 100%">
+                    <div class="accordion__panel">
                         <div class="accordion__panel-text">
                             <div class="accordion__panel-text-grid">
                                 <div class="accordion__panel-text-grid-left">

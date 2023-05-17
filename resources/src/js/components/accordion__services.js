@@ -13,7 +13,11 @@ for (let i = 0; i < acc.length; i++) {
                 .querySelector(".accordion__panel-img")
                 .classList.remove("accordion__panel-img--active");
         } else {
+            console.log("panel.scrollHeight", panel.scrollHeight);
+
             panel.style.maxHeight = panel.scrollHeight + "px";
+            // panel.style.maxHeight = "100%";
+
             setTimeout(() => {
                 panel.classList.add("accordion__panel--active");
                 panel
