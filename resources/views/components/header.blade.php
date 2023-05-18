@@ -24,13 +24,13 @@
                         <div class="header__logo-text">
                             <div class="header__logo-text-top">ООО «ТУЛЭНЕРГОСЕРВИС»</div>
                             <div class="header__logo-text-bottom">Ремонт машин и оборудования</div>
-                        </div>
+                    </div>
                     </a>
                 </div>
                 <div class="header__nav">
                     <ul class="nav nav__list-header">
                         <li class="nav__item-header"><a href="#services">Услуги</a></li>
-                        <li class="nav__item-header"><a href="#reviews">О компании</a></li>
+                        <li class="nav__item-header"><a href="#about">О компании</a></li>
                         <li class="nav__item-header"><a href="#contacts">Контакты</a></li>
                     </ul>
                 </div>
