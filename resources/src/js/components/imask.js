@@ -1,8 +1,8 @@
-import IMask from "imask";
-
-// маска для ввода телефона
-let element = document.querySelector(".form-phone");
-let maskOptions = {
-    mask: "+{7}(000)000-00-00",
-};
-let mask = IMask(element, maskOptions);
+import inputMask from "inputmask";
+console.log("input mask здесь, вешает маску на все элементы с аттрибутом name='phone'");
+(() => {
+    const inputs = document.querySelectorAll("[name='phone']");
+    for (let input of inputs) {
+        inputMask("+7 (999) 999 99-99").mask(input);
+    }
+})();

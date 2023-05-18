@@ -1,5 +1,5 @@
 <div id="popup" class="modalForm" 
-{{-- style="display: block" --}}
+style="display: block"
 >
     <div class="modal-content-form">
         <span class="closeForm">
@@ -18,7 +18,7 @@
             <p class="modal-text">Оставьте свой номер телефона, и мы поможем воплотить вашу мечту в реальность</p>
             <form class="modal-form">
                 <input class="modal-form-input" type="text" name="name" placeholder="Имя" id="inputName" required>
-                <input class="modal-form-input" type="text" name="phone" placeholder="Телефон" id="inputPhone"
+                <input class="modal-form-input form-phone" type="text" name="phone" placeholder="Телефон" id="inputPhone"
                     required>
                 <div class="modal-checkbox">
                     <input type="checkbox" id="checkbox">
