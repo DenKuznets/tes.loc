@@ -12,7 +12,7 @@
     "css": [
       "assets/app-a215ab07.css"
     ],
-    "file": "assets/app-636e8fb4.js",
+    "file": "assets/app-aaac6ea1.js",
     "isEntry": true,
     "src": "resources/js/app.js"
   },
@@ -42,7 +42,7 @@
     "src": "resources/src/assets/img/hero-right-3.jpg"
   },
   "resources/src/assets/main.scss": {
-    "file": "assets/main-ae9372ed.css",
+    "file": "assets/main-f3195876.css",
     "isEntry": true,
     "src": "resources/src/assets/main.scss"
   }

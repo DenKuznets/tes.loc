@@ -20,8 +20,8 @@
                     id="inputPhone" required>
                 <textarea name="text" id="inputComments" placeholder="Опишите ваши пожелания"></textarea>
                 <div class="modal-checkbox">
-                    <input type="checkbox" id="checkbox">
-                    <label>Согласен на обработку персональный данных</label>
+                    <input type="checkbox" id="checkbox" name="checkbox">
+                    <label for="checkbox">Согласен на обработку персональный данных</label>
                 </div>
                 <div class="modal-button">
                     <button class="btn" id="sendMail" disabled>Оставить заявку</button>
