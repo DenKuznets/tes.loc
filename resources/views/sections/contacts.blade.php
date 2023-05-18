@@ -6,7 +6,7 @@
                 <h3>Наши контакты</h3>
                 <a class="header__top-phone" href="tel:+74874165666">
                     <img class="svg" src="{{ asset('assets/img/phone-icon-white.svg') }}" alt="">
-                    8(48741)6–56–66
+                    +7(48741)6–56–66
                 </a>
                 <a href="mailto:tulenergoservis@yandex.ru">
                     <img class="svg" src="{{ asset('assets/img/mail-icon-white.svg') }}" alt="">
@@ -23,12 +23,12 @@
                     <div class="contacts__text-form-inputs">
                         <input class="" type="text" name="name" placeholder="Имя" id="inputName"
                             required>
-                        <input class="" type="text" name="phone" placeholder="Телефон"
+                        <input class="" type="text" name="phone" placeholder="+7 (000) 000 00-00"
                             id="inputPhone" required>
                         <textarea name="text" id="inputComments" placeholder="Опишите ваши пожелания"></textarea>
                     </div>
 
-                    <div class="">
+                    <div class="contacts__text-form-checkbox">
                         <input type="checkbox" id="checkbox">
                         <label>Согласен на обработку персональный данных</label>
                     </div>

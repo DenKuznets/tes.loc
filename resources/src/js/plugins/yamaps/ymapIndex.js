@@ -12,7 +12,7 @@ console.log("ymaps тут");
                     mapContainer,
                     {
                         // 51.367258, 42.078642
-                        center: [55.396123, 43.831366],
+                        center: [53.148854, 38.112706],
                         zoom: 16,
                     },
                     { yandexMapDisablePoiInteractivity: true },
