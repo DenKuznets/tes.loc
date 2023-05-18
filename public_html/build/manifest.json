@@ -12,7 +12,7 @@
     "css": [
       "assets/app-a215ab07.css"
     ],
-    "file": "assets/app-58d53517.js",
+    "file": "assets/app-636e8fb4.js",
     "isEntry": true,
     "src": "resources/js/app.js"
   },
@@ -25,8 +25,24 @@
     "file": "assets/bg-shared-1-87cb69fb.png",
     "src": "resources/src/assets/img/bg-shared-1.png"
   },
+  "resources/src/assets/img/hero-bg.png": {
+    "file": "assets/hero-bg-d62839fc.png",
+    "src": "resources/src/assets/img/hero-bg.png"
+  },
+  "resources/src/assets/img/hero-right-1.jpg": {
+    "file": "assets/hero-right-1-668d6bdb.jpg",
+    "src": "resources/src/assets/img/hero-right-1.jpg"
+  },
+  "resources/src/assets/img/hero-right-2.jpg": {
+    "file": "assets/hero-right-2-ea1ff35a.jpg",
+    "src": "resources/src/assets/img/hero-right-2.jpg"
+  },
+  "resources/src/assets/img/hero-right-3.jpg": {
+    "file": "assets/hero-right-3-c0e7dd76.jpg",
+    "src": "resources/src/assets/img/hero-right-3.jpg"
+  },
   "resources/src/assets/main.scss": {
-    "file": "assets/main-3a50800e.css",
+    "file": "assets/main-ae9372ed.css",
     "isEntry": true,
     "src": "resources/src/assets/main.scss"
   }

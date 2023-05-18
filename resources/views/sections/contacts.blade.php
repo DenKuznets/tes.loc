@@ -21,19 +21,19 @@
                 <h3 class="">Напишите нам</h3>
                 <form class="">
                     <div class="contacts__text-form-inputs">
-                        <input class="" type="text" name="name" placeholder="Имя" id="inputName"
+                        <input class="" type="text" name="name" placeholder="Имя" id="inputName-contacts"
                             required>
-                        <input class="" type="text" name="phone" placeholder="+7 (000) 000 00-00"
-                            id="inputPhone" required>
-                        <textarea name="text" id="inputComments" placeholder="Опишите ваши пожелания"></textarea>
+                        <input class="form-phone" type="text" name="phone" placeholder="+7 (000) 000 00-00"
+                            id="inputPhone-contacts" required>
+                        <textarea name="text" id="inputComments-contacts" placeholder="Опишите ваши пожелания"></textarea>
                     </div>
 
                     <div class="contacts__text-form-checkbox">
-                        <input name="checkbox" type="checkbox" id="checkbox">
-                        <label for="checkbox">Согласен на обработку персональный данных</label>
+                        <input name="checkbox" type="checkbox" id="checkbox-contacts">
+                        <label for="checkbox-contacts">Согласен на обработку персональный данных</label>
                     </div>
                     <div class="">
-                        <button class="btn" id="sendMail" disabled>Оставить заявку</button>
+                        <button class="btn" id="sendMail-contacts" disabled>Оставить заявку</button>
                     </div>
                 </form>
             </div>
