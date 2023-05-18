@@ -21,7 +21,7 @@
         <img src="{{ asset('assets/img/close-btn.svg') }}" alt="">
     </button>
 
-    {{-- @include('components.header') --}}
+    @include('components.header')
     @yield('content')
     {{-- @include('components.footer') --}}
     

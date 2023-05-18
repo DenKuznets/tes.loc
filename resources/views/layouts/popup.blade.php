@@ -1,5 +1,5 @@
-<div id="popup-feedback" class="modalForm">
-    <div class="modal-content-form popup-feedback">
+<div id="popUpTest" class="modalForm">
+    <div class="modal-content-form hero__popup">
         <span class="closeForm">
             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path
@@ -9,19 +9,15 @@
         </span>
 
         {{-- мишина форма обратной связи, не удаляй, вдруг понадобится --}}
-        <h3 class="modal-title">Оставьте заявку, мы обязательно свяжемся с вами!</h3>
+        <h2 class="modal-title">Оставьте заявку, мы обязательно свяжемся с вами!</h2>
         <p class="modal-text">Оставьте свой номер телефона, и мы поможем воплотить вашу мечту в реальность</p>
         <form class="modal-form">
             <input class="modal-form-input" type="text" name="name" placeholder="Имя" id="inputName" required>
             <input class="modal-form-input" type="text" name="phone" placeholder="Телефон" id="inputPhone"
                 required>
             <div class="modal-checkbox">
-
-                <label class="container">Нажимая кнопку, вы даёте согласие на обработку персональных
-                    данных
-                    <input type="checkbox" id="checkbox">
-                    <span class="checkmark"></span>
-                </label>
+                <input type="checkbox" id="checkbox">
+                <label>Согласен на обработку персональный данных</label>
             </div>
             <div class="modal-button">
                 <button class="btn btn-cta" id="sendMail" disabled>Оставить заявку</button>

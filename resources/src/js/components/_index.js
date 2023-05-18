@@ -1,6 +1,6 @@
 import './fixedMenu'
 import './sendAjax'
-import './pop-ap-services'
+import './popup'
 import './animate'
 import './swiper'
 import './swiper_reviews'

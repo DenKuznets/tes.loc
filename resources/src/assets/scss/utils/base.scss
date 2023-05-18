@@ -16,7 +16,7 @@ body {
     font-family: 'Montserrat';
     background-color: $white;
     color: $black;
-    padding-bottom: 20px;
+    // padding-bottom: 20px;
 }
 
 section,
@@ -203,8 +203,9 @@ img {
 
     &:disabled {
         background-color: $disable;
+
         // opacity: 0.4;
-        &:hover{
+        &:hover {
             cursor: not-allowed;
             background-color: $disable;
         }
@@ -229,4 +230,15 @@ img {
 
 .mask {
     position: absolute;
+}
+
+.bg-shared-1 {
+    background-image: url(../../src/assets/img/bg-shared-1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top 585px;
+
+    @media only screen and (max-width: $px1024) {
+        background-position: left 0 top 685px;
+    }
 }

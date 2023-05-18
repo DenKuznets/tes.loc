@@ -1,73 +1,149 @@
+#footer {
+    // background-color: rgba(5, 20, 44, 0.95);
+}
+
 .footer {
-    $footer-column: '700px';
-    $footer-semi-desktop: '845px';
-    $footer-mobile: '560px';
-    
-    padding: 100px 0 30px;
+    $block1-column: "1180px";
+    $footer-column: '930px';
+    padding: 58px 0 40px;
     margin: 0 auto;
 
-    @media only screen and (max-width: $footer-semi-desktop) {
-        padding-bottom: 20px;
-    }
-
-    a {
-        font-family: 'Fregat';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 140%;
-        color: $black;
-
-        &:hover {
-            color: $anchor-hover-color;
-        }
+    h2,
+    h3,
+    p,
+    a,
+    div,
+    input,
+    textarea {
+        color: $white;
     }
 
     &__block1 {
-        margin-bottom: 16px;
+        margin-bottom: 20px;
         display: flex;
-        justify-content: space-between;
         align-items: center;
 
-        @media only screen and (max-width: $footer-mobile) {
+        @media only screen and (max-width: $block1-column) {
             flex-direction: column;
+            align-items: stretch;
+        }
+
+        @media only screen and (max-width: $footer-column) {
+            align-items: center;
+            margin-bottom: 40px;
+        }
+
+        .header__logo {
+            margin-right: auto;
+
+            @media only screen and (max-width: $footer-column) {
+                margin-right: unset;
+                margin-bottom: 20px;
+            }
+
+            &-text {
+                display: block;
+            }
+        }
+
+        .nav {
+            display: flex;
+            max-height: unset;
+            min-height: unset;
+            background-color: rgba(5, 20, 44, 0);
+            gap: 80px;
+            position: relative;
+            flex-direction: row;
+
+            @media only screen and (max-width: $block1-column) {
+                width: 100%;
+                justify-content: space-between;
+            }
+
+            @media only screen and (max-width: $footer-column) {
+                flex-direction: column;
+                gap: 20px;
+                margin: 0;
+            }
+
+            a {
+                font-style: normal;
+                font-weight: 600;
+                font-size: 18px;
+                line-height: 140%;
+
+                &:hover {
+                    color: $turquoise;
+                }
+            }
+        }
+
+        button {
+            background-color: transparent;
+            color: $white;
+            border: none;
+            border-bottom: 1px solid #FFFFFF;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-family: 'Code Next';
+            font-style: normal;
+            font-weight: 800;
+            font-size: 20px;
+            line-height: 29px;
+
+            &:hover {
+                color: $turquoise;
+                border-bottom: 1px solid $turquoise;
+            }
         }
     }
 
     &__block2 {
         display: flex;
         justify-content: space-between;
-        margin-bottom: 20px;
-    }
 
-    &__logo {
-        cursor: pointer;
-
-        @media only screen and (max-width: $footer-mobile) {
-            margin-bottom: 16px;
+        @media only screen and (max-width: $footer-column) {
+            align-items: center;
+            flex-direction: column;
+            gap: 30px;
         }
     }
 
     &__rights {
-        @media only screen and (max-width: $footer-mobile) {
-            margin-bottom: 16px;
-        }
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 140%;
     }
 
     &__policy {
-        @media only screen and (max-width: $footer-mobile) {
-            margin-bottom: 10px;
-        }
-    }
-    &__alexmedia {
-        @media only screen and (max-width: $footer-mobile) {
-            margin-bottom: 10px;
+        a {
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 140%;
+
+            &:hover {
+                color: $turquoise;
+            }
         }
     }
 
-    &__disclaimer {
-        @media only screen and (max-width: $footer-semi-desktop) {
-            text-align: center;
+    &__alexmedia {
+        white-space: nowrap;
+
+        a {
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 140%;
+
+            &:hover {
+                color: $turquoise;
+            }
         }
 
     }

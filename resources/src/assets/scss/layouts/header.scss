@@ -117,6 +117,12 @@
     z-index: 2;
     cursor: pointer;
 
+    &:hover {
+      a {
+        text-decoration: none;
+      }
+    }
+
     a {
 
       display: flex;
