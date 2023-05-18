@@ -29,8 +29,8 @@
                     </div>
 
                     <div class="contacts__text-form-checkbox">
-                        <input type="checkbox" id="checkbox">
-                        <label>Согласен на обработку персональный данных</label>
+                        <input name="checkbox" type="checkbox" id="checkbox">
+                        <label for="checkbox">Согласен на обработку персональный данных</label>
                     </div>
                     <div class="">
                         <button class="btn" id="sendMail" disabled>Оставить заявку</button>

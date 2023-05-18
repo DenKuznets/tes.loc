@@ -7,14 +7,28 @@ import Toast from "toastr";
     const inputComments = document.getElementById("inputComments");
     const checkbox = document.getElementById("checkbox");
 
+    function toggleDisabled() {
+        if (
+            inputName.value !== "" &&
+            inputPhone.value !== "" &&
+            checkbox.checked
+        ) {
+            sendMail.disabled = false;
+        } else {
+            sendMail.disabled = true;
+        }
+    }
+
     if (checkbox) {
-        checkbox.addEventListener("click", (e) => {
-            if (inputName.value === "" || inputPhone.value === "") {
-                sendMail.setAttribute("disabled", "disabled");
-            } else {
-                sendMail.toggleAttribute("disabled");
-            }
-        });
+        checkbox.addEventListener("click", toggleDisabled);
+    }
+
+    if (inputName) {
+        inputName.addEventListener("input", toggleDisabled);
+    }
+
+    if (inputPhone) {
+        inputPhone.addEventListener("input", toggleDisabled);
     }
 
     if (sendMail) {

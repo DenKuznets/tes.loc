@@ -205,7 +205,7 @@ img {
         background-color: $disable;
         // opacity: 0.4;
         &:hover{
-            
+            cursor: not-allowed;
             background-color: $disable;
         }
     }
