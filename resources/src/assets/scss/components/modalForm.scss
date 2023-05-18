@@ -19,6 +19,7 @@
 }
 
 .modal-content-form {
+    $no-photo: '950px';
     position: absolute;
     z-index: 5;
     background: #ffffff;
@@ -31,18 +32,35 @@
     display: flex;
     max-width: 1140px;
 
-    &-left{
-        img{
+    @media only screen and (max-width: $no-photo) {
+        align-items: center;
+        justify-content: center;
+    }
+
+    &-left {
+        img {
             height: 100%;
+            max-width: 500px;
+        }
+
+        @media only screen and (max-width: $no-photo) {
+            display: none;
         }
     }
 
     &-right {
         padding: 70px;
         padding-left: 40px;
+        @media only screen and (max-width: $no-photo) {
+            max-width: 700px;
+            text-align: center;
+        }
 
         h3 {
             margin-bottom: 30px;
+            @media only screen and (max-width: $no-photo) {
+                // max-width: 400px;
+            }
         }
 
         p {
@@ -53,10 +71,21 @@
             display: flex;
             flex-direction: column;
             gap: 20px;
-            max-width: 400px;
+            // max-width: 400px;
+
+            @media only screen and (max-width: $no-photo) {
+                // max-width: unset;
+                // align-items: stretch;
+                margin: 0 auto;
+            }
 
             textarea {
                 min-height: 93px;
+            }
+            button {
+                @media only screen and (max-width: $no-photo) {
+                    margin: 0 auto;
+                }
             }
         }
     }
