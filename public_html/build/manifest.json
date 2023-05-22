@@ -21,6 +21,14 @@
     "isEntry": true,
     "src": "resources/sass/app.scss"
   },
+  "resources/src/assets/img/bg-shared-1-480.png": {
+    "file": "assets/bg-shared-1-480-84263e28.png",
+    "src": "resources/src/assets/img/bg-shared-1-480.png"
+  },
+  "resources/src/assets/img/bg-shared-1-768.png": {
+    "file": "assets/bg-shared-1-768-b0b009a7.png",
+    "src": "resources/src/assets/img/bg-shared-1-768.png"
+  },
   "resources/src/assets/img/bg-shared-1.png": {
     "file": "assets/bg-shared-1-87cb69fb.png",
     "src": "resources/src/assets/img/bg-shared-1.png"
@@ -42,7 +50,7 @@
     "src": "resources/src/assets/img/hero-right-3.jpg"
   },
   "resources/src/assets/main.scss": {
-    "file": "assets/main-f3195876.css",
+    "file": "assets/main-080116a6.css",
     "isEntry": true,
     "src": "resources/src/assets/main.scss"
   }
