@@ -241,4 +241,13 @@ img {
     @media only screen and (max-width: $px1024) {
         background-position: left 0 top 685px;
     }
+
+    @media only screen and (max-width: $px768) {
+        background-position: left 0 top 840px;
+        background-image: url(../../src/assets/img/bg-shared-1-768.png);
+    }
+    @media only screen and (max-width: $px480) {
+        background-position: left 0 top 890px;
+        background-image: url(../../src/assets/img/bg-shared-1-480.png);
+    }
 }
