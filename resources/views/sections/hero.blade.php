@@ -15,21 +15,18 @@
             </div>
             <div class="hero__content-right">
                 <div class="hero__content-right-img">
-                    <a href="">
-                        {{-- <img src="{{ asset('assets/img/hero-right-1.jpg') }}" alt=""> --}}
-
+                    <a href="{{ asset('assets/img/hero-right-1.jpg') }}" data-fancybox="gallery">
+                        <img src="{{ asset('assets/img/hero-right-1.jpg') }}" alt="">
                     </a>
                 </div>
                 <div class="hero__content-right-img">
-                    <a href="">
-                        {{-- <img src="{{ asset('assets/img/hero-right-2.jpg') }}" alt=""> --}}
-
+                    <a href="{{ asset('assets/img/hero-right-2.jpg') }}" data-fancybox="gallery">
+                        <img src="{{ asset('assets/img/hero-right-2.jpg') }}" alt="">
                     </a>
                 </div>
                 <div class="hero__content-right-img">
-                    <a href="">
-
-                        {{-- <img src="{{ asset('assets/img/hero-right-3.jpg') }}" alt=""> --}}
+                    <a href="{{ asset('assets/img/hero-right-3.jpg') }}" data-fancybox="gallery">
+                        <img src="{{ asset('assets/img/hero-right-3.jpg') }}" alt="">
                     </a>
                 </div>
             </div>

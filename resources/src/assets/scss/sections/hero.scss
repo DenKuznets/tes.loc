@@ -96,34 +96,41 @@
                 width: 250px;
                 height: 170px;
                 transition: all 0.3s ease;
+                img{
+                    display: none;
+                }
+            }
+
+            &-img a {
+                background-size: cover;
             }
 
             &-img:nth-child(1) {
                 a {
-                    background: url(../../src/assets/img/hero-right-1.jpg);
+                    background-image: url(../../src/assets/img/hero-right-1.jpg);
 
                     &:hover {
-                        background: linear-gradient(0deg, rgba(0, 7, 185, 0.5), rgba(0, 7, 185, 0.5)), url(../../src/assets/img/hero-right-1.jpg);
+                        background-image: linear-gradient(0deg, rgba(0, 7, 185, 0.5), rgba(0, 7, 185, 0.5)), url(../../src/assets/img/hero-right-1.jpg);
                     }
                 }
             }
 
             &-img:nth-child(2) {
                 a {
-                    background: url(../../src/assets/img/hero-right-2.jpg);
+                    background-image: url(../../src/assets/img/hero-right-2.jpg);
 
                     &:hover {
-                        background: linear-gradient(0deg, rgba(0, 7, 185, 0.5), rgba(0, 7, 185, 0.5)), url(../../src/assets/img/hero-right-2.jpg);
+                        background-image: linear-gradient(0deg, rgba(0, 7, 185, 0.5), rgba(0, 7, 185, 0.5)), url(../../src/assets/img/hero-right-2.jpg);
                     }
                 }
             }
 
             &-img:nth-child(3) {
                 a {
-                    background: url(../../src/assets/img/hero-right-3.jpg);
+                    background-image: url(../../src/assets/img/hero-right-3.jpg);
 
                     &:hover {
-                        background: linear-gradient(0deg, rgba(0, 7, 185, 0.5), rgba(0, 7, 185, 0.5)), url(../../src/assets/img/hero-right-3.jpg);
+                        background-image: linear-gradient(0deg, rgba(0, 7, 185, 0.5), rgba(0, 7, 185, 0.5)), url(../../src/assets/img/hero-right-3.jpg);
                     }
                 }
             }
