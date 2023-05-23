@@ -96,13 +96,12 @@
                 width: 250px;
                 height: 170px;
                 transition: all 0.3s ease;
-                img{
+                background-size: cover;
+                border-radius: 4px;
+
+                img {
                     display: none;
                 }
-            }
-
-            &-img a {
-                background-size: cover;
             }
 
             &-img:nth-child(1) {
