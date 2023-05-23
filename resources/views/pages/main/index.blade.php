@@ -9,8 +9,8 @@
     <main class="main">
         @include('../sections.hero')
         @include('../sections.services')
+        @include('../sections.about')
         <div class="bg-shared-1">
-            @include('../sections.about')
             @include('../sections.contacts') 
             @include('components.footer')
         </div>

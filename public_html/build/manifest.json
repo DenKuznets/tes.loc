@@ -21,6 +21,10 @@
     "isEntry": true,
     "src": "resources/sass/app.scss"
   },
+  "resources/src/assets/img/bg-shared-1-1024.png": {
+    "file": "assets/bg-shared-1-1024-3478caeb.png",
+    "src": "resources/src/assets/img/bg-shared-1-1024.png"
+  },
   "resources/src/assets/img/bg-shared-1-480.png": {
     "file": "assets/bg-shared-1-480-84263e28.png",
     "src": "resources/src/assets/img/bg-shared-1-480.png"
@@ -50,7 +54,7 @@
     "src": "resources/src/assets/img/hero-right-3.jpg"
   },
   "resources/src/assets/main.scss": {
-    "file": "assets/main-080116a6.css",
+    "file": "assets/main-a60fa911.css",
     "isEntry": true,
     "src": "resources/src/assets/main.scss"
   }

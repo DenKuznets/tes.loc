@@ -1,6 +1,6 @@
 <section id="contacts">
     <div class="containers contacts">
-        <h2>Как с нами связаться</h2>
+        <h2>Как с нами связаться<hr class="h2-line"></h2>
         <div class="contacts__text">
             <div class="contacts__text-contacts">
                 <h3>Наши контакты</h3>

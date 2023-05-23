@@ -109,6 +109,10 @@ h1 {
         // text-align: center;
     }
 
+    @media only screen and (max-width: 359px) {
+        font-size: 28px;
+    }
+
 }
 
 h2 {
@@ -137,6 +141,10 @@ h2 {
         font-weight: 800;
         font-size: 30px;
         line-height: 44px;
+    }
+
+    @media only screen and (max-width: 359px) {
+        font-size: 26px;
     }
 }
 
@@ -236,18 +244,17 @@ img {
     background-image: url(../../src/assets/img/bg-shared-1.png);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center top 585px;
+    background-position: center;
 
     @media only screen and (max-width: $px1024) {
-        background-position: left 0 top 685px;
+        background-image: url(../../src/assets/img/bg-shared-1-1024.png);
     }
 
     @media only screen and (max-width: $px768) {
-        background-position: left 0 top 840px;
         background-image: url(../../src/assets/img/bg-shared-1-768.png);
     }
+
     @media only screen and (max-width: $px480) {
-        background-position: left 0 top 890px;
         background-image: url(../../src/assets/img/bg-shared-1-480.png);
     }
 }
