@@ -2,4 +2,8 @@
 
 <p><b>Имя заказчика: </b> {{ $data->name }}</p>
 <p><b>Телефон заказчика: </b> {{ $data->phone }}</p>
+@if($data->text)
+    <p><b>Текст сообщения: </b> {{ $data->text }}</p>
+@endif
+
 

@@ -3,7 +3,7 @@
         <div class="footer__content">
             <div class="footer__block1">
                 <div class="header__logo">
-                    <a {{-- href="{{ route('index') }}" --}}>
+                    <a href="{{ route('index') }}">
                         <img class="svg logo-img" src="{{ asset('assets/img/logo-footer.svg') }}" alt="">
                         <div class="header__logo-text">
                             <div class="header__logo-text-top">ООО «ТУЛЭНЕРГОСЕРВИС»</div>
@@ -20,7 +20,7 @@
             </div>
             <div class="footer__block2">
                 <div class="footer__rights">© <?php echo date('Y'); ?>, Все права защищены</div>
-                <div class="footer__policy"><a href="#">Политика конфиденциальности</a></li>
+                <div class="footer__policy"><a href="{{ route("politics") }}">Политика конфиденциальности</a></li>
                 </div>
                 <div class="footer__alexmedia">Сайт разработан компанией <a href="https://alex-media.ru/">ALEX–MEDIA</a>
                 </div>

@@ -82,6 +82,9 @@
             </div>
         </div>
     </section>
+    <div class="bg-shared-1">
+        @include('components.footer')
+    </div>
 @endsection
 
 

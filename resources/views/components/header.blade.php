@@ -19,7 +19,7 @@
         <div class="header__bottom fixedHeader ">
             <div class="containers header__bottom-content ">
                 <div class="header__logo">
-                    <a {{-- href="{{ route('index') }}" --}}>
+                    <a href="{{ route('index') }}">
                         <img class="svg logo-img" src="{{ asset('assets/img/logo.svg') }}" alt="">
                         <div class="header__logo-text">
                             <div class="header__logo-text-top">ООО «ТУЛЭНЕРГОСЕРВИС»</div>
