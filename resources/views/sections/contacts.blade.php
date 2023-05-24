@@ -1,12 +1,14 @@
 <section id="contacts">
     <div class="containers contacts">
-        <h2>Как с нами связаться<hr class="h2-line"></h2>
+        <h2>Как с нами связаться
+            <hr class="h2-line">
+        </h2>
         <div class="contacts__text">
             <div class="contacts__text-contacts">
                 <h3>Наши контакты</h3>
-                <a class="header__top-phone" href="tel:+74874165666">
+                <a class="header__top-phone" href="tel:++79066275666">
                     <img class="svg" src="{{ asset('assets/img/phone-icon-white.svg') }}" alt="">
-                    +7(48741)6–56–66
+                    +7 906 627-56-66
                 </a>
                 <a href="mailto:tulenergoservis@yandex.ru">
                     <img class="svg" src="{{ asset('assets/img/mail-icon-white.svg') }}" alt="">
@@ -29,8 +31,14 @@
                     </div>
 
                     <div class="contacts__text-form-checkbox">
-                        <input name="checkbox" type="checkbox" id="checkbox-contacts">
-                        <label for="checkbox-contacts">Согласен на обработку персональный данных</label>
+                        {{-- <input name="checkbox" type="checkbox" id="checkbox-contacts"> --}}
+                        <div class="modal-checkbox">
+
+                            <label class="container">Согласен на обработку персональный данных
+                                <input type="checkbox" name="checkbox" id="checkbox-contacts">
+                                <span class="checkmark"></span>
+                            </label>
+                        </div>
                     </div>
                     <div class="">
                         <button class="btn" id="sendMail-contacts" disabled>Оставить заявку</button>

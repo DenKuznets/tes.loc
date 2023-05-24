@@ -10,9 +10,9 @@
                     <img class="svg" src="{{ asset('assets/img/mail-icon.svg') }}" alt="">
                     tulenergoservis@yandex.ru
                 </a>
-                <a class="header__top-phone" href="tel:+74874165666">
+                <a class="header__top-phone" href="tel:+79066275666">
                     <img class="svg" src="{{ asset('assets/img/phone-icon.svg') }}" alt="">
-                    8(48741)6–56–66
+                    +7 906 627-56-66
                 </a>
             </div>
         </div>
@@ -34,9 +34,9 @@
                         <li class="nav__item-header"><a href="#contacts">Контакты</a></li>
                     </ul>
                 </div>
-                <a class="header__bottom-phone" href="tel:+74874165666">
+                <a class="header__bottom-phone" href="tel:+79066275666">
                     <img class="svg" src="{{ asset('assets/img/phone-icon.svg') }}" alt="">
-                    8(48741)6–56–66
+                    +7 906 627-56-66
                 </a>
             </div>
         </div>

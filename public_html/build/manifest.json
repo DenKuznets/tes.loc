@@ -37,6 +37,10 @@
     "file": "assets/bg-shared-1-87cb69fb.png",
     "src": "resources/src/assets/img/bg-shared-1.png"
   },
+  "resources/src/assets/img/checkbox-icon.svg": {
+    "file": "assets/checkbox-icon-96811d2d.svg",
+    "src": "resources/src/assets/img/checkbox-icon.svg"
+  },
   "resources/src/assets/img/hero-bg.png": {
     "file": "assets/hero-bg-d62839fc.png",
     "src": "resources/src/assets/img/hero-bg.png"
@@ -54,7 +58,7 @@
     "src": "resources/src/assets/img/hero-right-3.jpg"
   },
   "resources/src/assets/main.scss": {
-    "file": "assets/main-f61f0330.css",
+    "file": "assets/main-18d06d07.css",
     "isEntry": true,
     "src": "resources/src/assets/main.scss"
   }

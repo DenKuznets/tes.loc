@@ -8,11 +8,6 @@
   display: flex;
   flex-direction: column;
 
-
-  @media (max-width: $navhide) {
-    // position: absolute;
-  }
-
   @media (max-width: $px768) {
     padding: 0 20px;
   }
@@ -60,6 +55,10 @@
 
     @media only screen and (max-width: $px768) {
       padding: 0;
+    }
+
+    &-phone img {
+      margin-right: 8px;
     }
 
     &-content {
