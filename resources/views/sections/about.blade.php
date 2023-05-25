@@ -11,7 +11,8 @@
                  </p>
              </div>
              <div class="about__content-image animate__animated">
-                 <img src="{{ asset('assets/img/about-img.jpg') }}" alt="">
+                 <img src="{{ Vite::asset('resources/src/assets/img/about-img.jpg') }}" alt="">
+                 {{-- <img src="{{ asset('assets/img/about-img.jpg') }}" alt=""> --}}
              </div>
          </div>
      </div>

@@ -1,6 +1,6 @@
 import './bootstrap';
 import '../src/js/main';
-// import.meta.glob(["../src/assets/img/**", "../fonts/**"]);
+import.meta.glob(["../src/assets/img/**"]);
 
 import Alpine from 'alpinejs';
 
