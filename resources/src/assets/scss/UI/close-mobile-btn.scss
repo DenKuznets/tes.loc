@@ -6,6 +6,7 @@
   background-color: #00110A00;
   border: none;
   z-index: 4;
+  cursor: pointer;
 
   @media (max-width: $navhide) {
     &-active {
